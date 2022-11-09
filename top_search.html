@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #aj_top {
+        border: 1px solid black;
+        width: 99vw;
+        height: 379px;
+
+
+
+        background-image: url("https://i.ibb.co/tm7CYyF/background.jpg");
+        /* border: 1px solid white;  */
+        background-repeat: no-repeat;
+        background-size: auto;
+
+    }
+
+    #aj_top_white {
+        width: 80%;
+        height: 75%;
+        margin: auto;
+        margin-top: 32px;
+        background-color: white;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border: 1px solid red;
+    }
+
+    #aj_btn_div {
+
+        margin-top: 5px;
+        width: 95%;
+        height: 15%;
+        margin: auto;
+        text-align: center;
+        border-bottom: .5px solid black;
+    }
+
+    #aj_btn_div div {
+        width: 60%;
+        height: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: auto;
+
+    }
+
+    #aj_search_div {
+        border: 1px solid black;
+        height: 20%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    #aj_go_btn img {
+        width: 15px;
+        height: 15px;
+    }
+
+    #aj_go_btn {
+        width: 453px;
+        height: 48px;
+        border-radius: 10px;
+        text-align: left;
+    }
+
+    #aj_go_btn_div {
+        display: none;
+        width: 464px;
+        height: 300px;
+        margin-left: 52px;
+        position: relative;
+        top: -55px;
+        z-index: 100;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border: 1px solid blue;
+        background-color: #ffff;
+    }
+
+    .aj_date {
+        width: 174px;
+        height: 48px;
+        border-radius: 10px;
+    }
+
+    #aj_travel {
+        width: 267px;
+        height: 48px;
+        border-radius: 10px;
+    }
+
+    #aj_checkbox {
+        display: flex;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        margin-top: 15px;
+        border: 1px solid red;
+    }
+
+    #aj_c-1,
+    #aj_c-2 {
+        width: 18px;
+        height: 18px;
+
+    }
+
+    #aj_checkbox label {
+        font-size: 14px;
+    }
+
+    #aj_search {
+        width: 90%;
+        height: 83px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid red;
+    }
+
+    #aj_search_btn {
+        width: 174px;
+        height: 48px;
+        border-radius: 10px;
+        font-size: 16px;
+        color: white;
+        background-color: #2A6EC1;
+    }
+</style>
+
+<body>
+    <div id="aj_top">
+        <div id="aj_top_white">
+            <div id="aj_btn_div">
+                <div>
+                    <button>Stays</button>
+                    <button>Flights</button>
+                    <button>Cars</button>
+                    <button>Packages</button>
+                    <button>Things to do</button>
+                    <button>Cruises</button>
+                </div>
+            </div>
+            <div id="aj_search_div">
+                <button id="aj_go_btn"><img src="https://i.postimg.cc/wvL4RBKP/marker.png" alt="">
+                    Going to</button>
+                <button class="aj_date">Check-in <input type="date"></button>
+                <button class="aj_date">Check-out <input type="date"> </button>
+                <button id="aj_travel">Travelers</button>
+            </div>
+            <div id="aj_go_btn_div"></div>
+            <div id="aj_checkbox"><input id="aj_c-1" type="checkbox"><label for="aj_c-1">Add a flight</label>
+                <input id="aj_c-1" type="checkbox"><label for="aj_c-1">Add a Car</label>
+            </div>
+            <div id="aj_search"><button id="aj_search_btn">Search</button></div>
+
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    let going_btn = document.getElementById("aj_go_btn")
+    going_btn.onclick = () => {
+        let go_btn_div = document.getElementById("aj_go_btn_div")
+        go_btn_div.style.display = "block"
+    }
+</script>
