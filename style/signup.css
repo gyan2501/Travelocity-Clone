@@ -1,0 +1,96 @@
+
+
+ body{
+    margin: 0;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif ;
+}
+#signup_nav{
+   border-bottom: 1px solid #8e969d;
+    height: 70px;
+    line-height: 18px;
+}
+
+#sinuparrow{
+    
+    color:#0d5ab9;
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    position: relative;
+    bottom:20px ; 
+    font-size: 22px;       
+}
+
+#signup_nav img {
+    margin-left: 650px;
+    width: 120px;
+    height: 93.7%;
+   border: 0px solid red;
+}
+
+#signupbox{
+    border: 0px solid red;
+    width: 27%;
+    margin: auto;
+}
+#signupbox i{
+    position:relative;
+    bottom: 56px;
+    left: 380px;
+}
+#signupbox i:hover{
+    cursor: pointer;
+}
+#signupform input:nth-child(1), 
+#signupform input:nth-child(2),
+#signupform input:nth-child(3),
+#signupform input:nth-child(4){
+    width: 95%;
+    height: 45px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    padding-left: 8px;
+    border: 1px solid grey;
+}
+
+#continue{
+   width: 98%; 
+   height: 45px;
+   background-color:#0d5ab9;
+   color: white;
+   font-size: 16px;
+   border-radius: 8px;
+   border: none;
+   margin-top: 15px;
+}
+
+#continue:hover{
+    cursor: pointer;
+}
+
+#alhacc, #continue_with{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#loguplogo{
+    margin-top: 30px;
+    border: 0px solid red;
+    text-align: center;
+}
+#loguplogo img{
+    width: 20px;
+    margin-right: 10px;
+}
+#uppara{
+    color: grey;
+    font-size: 14px;
+}
+#upanchor{
+    text-decoration: none;
+    color: #0d5ab9;
+}
+#upanchor:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+
+
+div a{
+    text-decoration: none;
+    color: #0d5ab9;
+}
+div a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#gpfooter{
+    width: 80%;
+    margin: auto;
+   
+    
+}
+#down{
+text-align: center;
+}
+#up h4{
+font-size: 17px;
+}
+#up{
+    display: flex;
+    border-bottom: 1px solid #505c66;
+    justify-content: space-between;
+    font-size: 15px;
+    line-height: 16px;
+    height: 350px;
+
+}
+#down{
+    margin-top: 30px;
+    font-size: 14px;
+
+}
+
+#up div img{
+    margin-top: 15px;
+}
+#down p{
+    color: #505c66;
+}

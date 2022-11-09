@@ -1,0 +1,92 @@
+
+
+body{
+    margin: 0;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif ;
+}
+#signin_nav{
+   border-bottom: 1px solid #8e969d;
+    height: 70px;
+    line-height: 18px;
+}
+#signin_nav img {
+    margin-left: 650px;
+    width: 120px;
+    height: 93.7%;
+   border: 0px solid red;
+}
+#arrow{
+    
+    color:#0d5ab9;
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    position: relative;
+    bottom:20px ; 
+    font-size: 22px;       
+}
+
+#signinbox{
+    border: 0px solid red;
+    width: 27%;
+    margin: auto;
+}
+#signinbox i{
+    position:relative;
+  bottom: 56px;
+  left: 380px;
+}
+
+#signinform input:nth-child(1), 
+#signinform input:nth-child(2){
+    width: 95%;
+    height: 45px;
+    margin-bottom: 18px;
+    border-radius: 8px;
+    font-size: 16px;
+    padding-left: 8px;
+    border: 1px solid grey;
+}
+
+#submit{
+   width: 98%; 
+   height: 45px;
+   background-color:#0d5ab9;
+   color: white;
+   font-size: 16px;
+   border-radius: 8px;
+   border: none;
+   margin-top: 15px;
+}
+
+#submit{
+    cursor: pointer;
+}
+
+.forgotpass,#ahacc, #continue{
+    text-align: center;
+    margin-top: 30px;
+}
+.forgotpass{
+    color: #0d5ab9 ;
+}
+#loginlogo{
+    margin-top: 30px;
+    border: 0px solid red;
+    text-align: center;
+}
+#loginlogo img{
+    width: 20px;
+    margin-right: 10px;
+}
+#para{
+    color: grey;
+    font-size: 14px;
+}
+#anchor{
+    text-decoration: none;
+    color: #0d5ab9;
+}
+#anchor:hover{
+    cursor: pointer;
+}
