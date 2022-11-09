@@ -1,0 +1,144 @@
+#abjtop {
+    display: flex;
+    border: 1px solid red;
+    height: 50px;
+}
+
+#abjtop > div {
+    border: 1px solid red;
+}
+
+#abjtop2 {
+    width: 100%;
+    height: 500px;
+    border: 1px solid red;
+    display: flex;
+    background-image: url("https://headless.expediagroup.com/content/dam/marketing/headless/images/home-page/Content-page-image-hero-LG2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+} 
+
+#abjtop2>div {
+    border: 1px solid red;
+    width: 100%;
+    height: 500px;
+}
+#abjom{
+    background-color: whitesmoke;
+    height: 70px;
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 430px;
+}
+
+#abjtop2l{
+    border: 1px solid red;
+}
+
+#abjtop2l{
+    border: 1px solid red;
+}
+
+#abjtop2r > div{
+    border: 1px solid red;
+    width: 100%;
+}
+#abjtop2r > div:nth-child(1){
+    border: 1px solid red;
+    width: 100%;
+    height: 100px;
+}
+#imeg{
+    width: 100%;
+}
+#abjtop2r > div:nth-child(2){
+    border: 1px solid rgb(37, 29, 149);
+    width: 100%;
+    height: 100px;
+}
+
+#abjtop2r > div:nth-child(3){
+    border: 1px solid rgb(40, 170, 64);
+    width: 100%;
+    height: 250px;
+}
+
+#abjbox{
+    width: 80%;
+    height: 90%;
+    border: 1px solid green;
+}
+
+
+#abjadmin{
+    display: flex;
+    height: 96%;
+}
+
+
+
+#abjadmin > div {
+    border: 1px solid red;
+    width: 100%;
+    height: 96%;
+}
+
+#abjlogobox{
+    display: flex;
+}
+
+#abjlogobox > div{
+    width: 40%;
+    height: 80px;
+    border: 1px solid green;
+
+}
+
+#abjlogobox > div > img{
+    width: 65%;
+    margin: auto;
+}
+
+
+/* BRING */
+
+
+#abjbringmain{
+    border: 1px solid rgb(30, 42, 152);
+    width: 100%;
+    height: 500px;
+}
+
+#abjbring{
+    border: 1px solid green;   
+}
+
+#abjbring > div{
+    border: 1px solid red;
+    width: 50%;   
+    margin: auto;
+}
+
+#abjbringpic{
+    display: flex;
+    width: 80%;
+    height: 300px;
+    margin: auto;
+}
+
+#abjbringpic > div{
+    border: 1px solid red;
+    width: 100%;
+    height: 96%;
+}
+
+.abjbringimage{
+    display: flex;
+    justify-content: center;
+}
+
+.abjbringimage > img{
+    width: 40%;
+   
+}
