@@ -1,3 +1,7 @@
+*{
+    font-family: "poppins", "sans-serif";
+}
+
 #abjtop {
     display: flex;
     border: 1px solid red;
@@ -105,18 +109,19 @@
 
 
 #abjbringmain{
-    border: 1px solid rgb(30, 42, 152);
+    border: 1px solid rgb(152, 30, 71);
     width: 100%;
-    height: 500px;
+    height: 450px;
 }
 
 #abjbring{
-    border: 1px solid green;   
+    border: 1px solid green;
+    width: 100%;
 }
 
 #abjbring > div{
     border: 1px solid red;
-    width: 50%;   
+    width: 55%;   
     margin: auto;
 }
 
@@ -129,7 +134,7 @@
 
 #abjbringpic > div{
     border: 1px solid red;
-    width: 100%;
+    width: 80%;
     height: 96%;
 }
 
@@ -138,7 +143,134 @@
     justify-content: center;
 }
 
+.abjbringpiccard{
+    width: 100%;
+}
+
+.abjbringpiccard > div{
+    width: 80%;
+    margin: auto;
+
+}
+
 .abjbringimage > img{
-    width: 40%;
+    width: 35%;
+    margin-bottom: 20px;
    
+}
+
+.abjpicword{
+    text-align: center;
+}
+
+
+/* Travelocity */
+
+#abjTravelocity{
+    width: 100%;
+    height: 300px;
+    border: 1px solid red;
+}
+
+#abjTravelocity > div{
+    border: 1px solid red;
+    width: 80%;
+    height: 30%;
+    margin: auto;
+    
+}
+
+
+#Travelocitypiv{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 200px;
+}
+
+#Travelocitypiv > div {
+    width: 15%;
+    border: 1px solid red;
+    margin: auto;
+    gap: 10px;
+}
+
+.abjtrea{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.abjtreaa{
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+
+#abjExplore{
+    width: 100%;
+    height: 600px;
+    border: 1px solid rgb(104, 130, 103);
+    margin-top: 25px;
+}
+
+#abjExplore > div:nth-child(1){
+    width: 60%;
+    justify-content: center;
+}
+
+#abjExplore > div:nth-child(2){
+    width: 60%;
+    align-content: center;
+}
+
+.abjexpro{
+    text-align: center;
+}
+#abjExplore > div{
+    margin: auto;
+    width: 80%;
+    border: 1px solid rgb(181, 78, 30);
+}
+
+#abjExplorepic{
+    display: flex;
+    margin: auto;
+    padding-top: 25px;
+    margin-top: 15px;
+
+
+}
+
+#abjExplorepic > div{
+    margin: auto;
+    width: 45%;
+    border: 1px solid rgb(22, 20, 136);
+    justify-content: center;
+}
+
+
+#abjExplorepic > div > div{ 
+    border: 1px solid rgb(22, 20, 136);
+    margin: auto;
+}
+
+.abjexpimgbox > div:nth-child(1) {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 15px;
+
+}
+
+.abjexpimgbox > div > img{
+    width: 85%;
+}
+
+.abjhead{
+    text-align: center;
+}
+
+#abjready{
+    width: 100%;
+    height: 400px;
 }
