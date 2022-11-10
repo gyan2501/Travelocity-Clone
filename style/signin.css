@@ -26,6 +26,10 @@ body{
     font-size: 22px;       
 }
 
+#toggle_Password:hover{
+    cursor: pointer;
+}
+
 #signinbox{
     border: 0px solid red;
     width: 27%;
@@ -35,6 +39,9 @@ body{
     position:relative;
   bottom: 56px;
   left: 380px;
+}
+#signinbox i:hover{
+    cursor: pointer;
 }
 
 #signinform input:nth-child(1), 

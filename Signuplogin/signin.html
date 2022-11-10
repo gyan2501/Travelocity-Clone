@@ -7,24 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LogIn</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
-    <link rel="stylesheet" href="./style/signin.css">
+    <link rel="stylesheet" href="../style/signin.css">
 </head>
 <body>
     <div id="signin_nav">
         <a href="#" id="arrow"><i class="fa-solid fa-arrow-left"></i></a>
-        <a href="#"><img src="./logo/TravelAgency.png" alt=""></a>
+        <a href="#"><img src="../logo/TravelAgency.png" alt=""></a>
     </div>
     <div id="signinbox">
         <h2 style="color: #242c33 ;" >Sign In</h2>
         <form id="signinform" method="post">
-            <input type="email" id="emailid" placeholder="Email address">
-            <input type="password" id="password" placeholder="Password" >
+            <input type="email" id="emailid" class="signin_input" placeholder="Email address">
+            <input type="password" id="password" class="signin_input" placeholder="Password" >
             <i class="bi bi-eye-slash" id="togglePassword"></i>
             <input type="checkbox" id="check"> Keep me signed in
             <p id="para">Selecting this checkbox will keep you signed into your account on this device until you sign out. Do not select this on shared devices.</p>
             <p id="para">By signing in, I agree to the Travelocity <a id="anchor" href="https://www.travelocity.com/lp/lg-terms" target="_blank">Terms and Conditions</a>&nbsp and <a id="anchor" href="https://www.travelocity.com/lp/lg-privacy" target="_blank">Privacy Statement.</a></p>
             
-            <button type="submit" id="submit" class="submit" disabled>Sign in</button>
+            <button type="submit" id="submit" class="submit" >Sign in</button>
         </form>
         <p  id="anchor" class="forgotpass">Forgot password?</p>
         <p id="ahacc">Don't have an account? <a id="anchor" href="./signup.html">Create one</a> </p>
@@ -38,4 +38,4 @@
     
 </body>
 </html>
-<script src="./src/sigin.js"></script>
+<script src="../src/sigin.js"></script>

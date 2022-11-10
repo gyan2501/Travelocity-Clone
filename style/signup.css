@@ -20,6 +20,9 @@
     bottom:20px ; 
     font-size: 22px;       
 }
+#togglePassword:hover{
+    cursor: pointer;
+}
 
 #signup_nav img {
     margin-left: 650px;
