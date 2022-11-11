@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<link rel="stylesheet" href="./style/navbar.css">
 <style>
     #aj_top {
         border: 1px solid black;
@@ -75,21 +76,22 @@
         text-align: left;
     }
 
+    /* -----------------------------pop div S-------------- */
     #aj_go_btn_div {
         display: none;
         width: 464px;
-        height: 300px;
+        height: 338px;
         margin-left: 52px;
-        position: relative;
-        top: -55px;
+        position: absolute;
+        top: 103px;
         z-index: 100;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         border: 1px solid blue;
         background-color: #ffff;
     }
 
-    /* -----------------------------pop div-------------- */
-    #aj_go_btn_div>div {
+
+    #aj_go_btn_div>#aj_div1 {
         display: flex;
         align-items: center;
         /* border: 1px solid green; */
@@ -98,7 +100,7 @@
         border-bottom: 1px solid #6A7680;
     }
 
-    #aj_go_btn_div>div>input {
+    #aj_go_btn_div>#aj_div1>input {
 
         font-size: 25px;
         margin-left: 20px;
@@ -106,7 +108,7 @@
         border: none;
     }
 
-    #aj_go_btn_div>div>input::placeholder {
+    #aj_go_btn_div>#aj_div1>input::placeholder {
         font-size: 16px;
         font-weight: 700;
         padding-left: 15px;
@@ -115,7 +117,90 @@
 
     }
 
-    /* -----------------------------pop div-------------- */
+    #aj_div2 div {
+        display: flex;
+        /* width: 100%;
+        height: 80%; */
+        border: 2px solid red;
+    }
+
+    /* -----------------------------pop div E-------------- */
+    /* -----------------------------pop div travel S-------------- */
+    #aj_go_btn_div1 {
+        display: none;
+        width: 335px;
+        height: 272px;
+        /* margin-left: 52px; */
+        position: absolute;
+        right: 200px;
+        top: 158px;
+        z-index: 100;
+        box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+        border: 1px solid blue;
+        background-color: #ffff;
+    }
+
+    #aj_go_btn_div1>h3,
+    #aj_go_btn_div1>p {
+        margin-left: 5px;
+    }
+
+    #aj_go_btn_div1>#div1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 13px;
+        padding-right: 13px;
+        border: 2px solid black;
+    }
+
+    #aj_go_btn_div1>#div2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 13px;
+        padding-right: 13px;
+        border: 2px solid black;
+    }
+
+    #aj_go_btn_div1>#div2>div:nth-child(1) {
+        border: 2px solid black;
+        /* height: 32px; */
+    }
+
+    #aj_go_btn_div1>#div2>div:nth-child(1)>p {
+        border: 2px solid red;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border: 2px solid red;
+    }
+
+    #aj_add_btn {
+        display: block;
+        width: 100%;
+        text-align: right;
+        padding-right: 13px;
+        font-size: 14px;
+        font-weight: 700;
+        color: #0d5ab9;
+        border: 1px solid blue;
+    }
+
+    #aj_done_btn {
+        display: block;
+        width: 97%;
+        height: 48px;
+        font-size: 14px;
+        font-weight: 700;
+        margin-top: 5px;
+        margin: auto;
+        border-radius: 10px;
+        color: aliceblue;
+        background-color: #0d5ab9;
+        border: 1px solid blue;
+    }
+
+    /* -----------------------------pop div travel E-------------- */
     .aj_date {
         width: 174px;
         height: 48px;
@@ -169,6 +254,7 @@
 </style>
 
 <body>
+    <nav id="nav"></nav>
 
     <div id="aj_top">
         <div id="aj_top_white">
@@ -187,16 +273,53 @@
                     Going to</button>
                 <button class="aj_date">Check-in <input type="date"></button>
                 <button class="aj_date">Check-out <input type="date"> </button>
-                <button id="aj_travel">Travelers</button>
+                <button id="aj_travel">
+                    Travelers <br><span id="aj_t_span1">1</span> <label for="aj_t_span1">room</label>
+                    <span id="aj_t_span2">2</span> <label for="aj_t_span2">traveler</label>
+
+
+                </button>
+
             </div>
             <!-- --------------------------popup div start-------------------- -->
             <div id="aj_go_btn_div">
-                <div>
+                <div id="aj_div1">
                     <input id="aj_go_inp" type="text" placeholder="Where are you going?">
                 </div>
+                <div id="aj_div2"></div>
 
             </div>
             <!-- --------------------------popup div end-------------------- -->
+            <!-- --------------------------popup div travel start-------------------- -->
+            <div id="aj_go_btn_div1">
+                <h3>Travelers</h3>
+                <p>Room 1</p>
+                <div id="div1">
+                    <p>Adults</p>
+                    <div><button id="aj_adult_+">+</button>
+                        <span id="aj_adult_span">2</span>
+                        <button id="aj_adult_-">-</button>
+                    </div>
+
+                </div>
+                <div id="div2">
+                    <div>
+                        <p>Children</p>
+                        <p>Ages 0 to 17</p>
+                    </div>
+
+                    <div><button id="aj_child_+">+</button>
+                        <span id="aj_child_span">0</span>
+                        <button id="aj_child_-">-</button>
+                    </div>
+                </div>
+                <button id="aj_add_btn">Add another room</button>
+                <button id="aj_done_btn">Done</button>
+
+
+            </div>
+            <!-- --------------------------popup div travel end-------------------- -->
+
             <div id="aj_checkbox"><input id="aj_c-1" type="checkbox"><label for="aj_c-1">Add a flight</label>
                 <input id="aj_c-1" type="checkbox"><label for="aj_c-1">Add a Car</label>
             </div>
@@ -4677,7 +4800,11 @@
         }
     ]
 </script>
-<script>
+<script type="module">
+    import { navbar } from "./components/navbar.js"
+    console.log(navbar())
+    let nav = document.getElementById("nav")
+    nav.innerHTML = navbar()
 
     let going_btn = document.getElementById("aj_go_btn")
     let go_inp = document.getElementById("aj_go_inp")
@@ -4695,17 +4822,44 @@
     go_inp = () => {
         let go_inp = document.getElementById("aj_go_inp")
         let Search_city = go_inp.value
+        let similar_city;
         let filter_city = city.filter((el) => {
             if (el.city.toLowerCase().includes(Search_city.toLowerCase())) {
-                return (el.city + " " + el.admin_name)
+                localStorage.setItem("filter_city", JSON.stringify(el))
+
+                similar_city = city.filter((ele) => {
+                    if (ele.admin_name == el.admin_name) {
+                        return ele
+
+                    }
+                })
+                let aj_similar_city = document.getElementById("aj_div2")
+                aj_similar_city.innerHTML = null
+                for (let i = 0; i < 5; i++) {
+                    let div = document.createElement("div")
+
+                    let p1 = document.createElement("p");
+                    p1.innerText = similar_city[i].city;
+                    let p2 = document.createElement("p");
+                    p2.innerText = similar_city[i].admin_name
+
+
+                    div.append(p1, p2)
+                    aj_similar_city.append(div)
+                    div.onclick = () => {
+                        let aj_go_btn = document.getElementById("aj_go_btn")
+                        aj_go_btn.innerHTML = ""
+
+                        aj_go_btn.innerText = p1.innerText
+                        let go_btn_div = document.getElementById("aj_go_btn_div")
+                        let aj_go_inp = document.getElementById("aj_go_inp")
+                        aj_go_inp.innerText = ""
+                        go_btn_div.style.display = "none";
+                    }
+                }
             }
         })
-        console.log(filter_city)
     }
-
-
-
-
     let id;
     function debouncing(func) {
         if (id) {
@@ -4718,5 +4872,106 @@
             func();
         }, 2000)
     }
-    //
+    // -----------------------------travel S code-----------------
+    let aj_travel = document.getElementById("aj_travel")
+    aj_travel.onclick = () => {
+        let aj_go_btn_div1 = document.getElementById("aj_go_btn_div1")
+        aj_go_btn_div1.style.display = "block"
+    }
+
+    let span1 = document.getElementById("aj_t_span1");
+    let span2 = document.getElementById("aj_t_span2")
+    let s_plus = document.getElementById("aj_adult_+")
+    let Adult_span = document.getElementById("aj_adult_span")
+    let Child_span = document.getElementById("aj_child_span")
+    let s_child_plus = document.getElementById("aj_child_+")
+    s_child_plus.onclick = () => {
+        plusForChildrens()
+    }
+    let s_child_minus = document.getElementById("aj_child_-")
+    s_child_minus.onclick = () => {
+        minusForChildrens()
+    }
+    s_plus.onclick = () => {
+        plusForAdults()
+    }
+    let s_minus = document.getElementById("aj_adult_-")
+    s_minus.onclick = () => {
+        minusForAdults()
+    }
+    let i = 2
+    function plusForAdults() {
+        if (i < 3) {
+            i++
+            Adult_span.innerText = i;
+        }
+        else if (i > 2) {
+            alert(" more than 3 Adults not allowed")
+            // i=3
+        }
+
+    }
+
+    function minusForAdults() {
+        console.log(i)
+        i--;
+        console.log(i)
+        Adult_span.innerText = i;
+
+        if (i < 1) {
+            alert("not possible")
+            Adult_span.innerText = 1
+            i = 1;
+            window.location.reload();
+        }
+    }
+
+    // 2
+    let j = 0
+    function plusForChildrens() {
+        if (j < 3) {
+            j++
+            Child_span.innerText = j;
+        }
+        else if (j > 2) {
+            alert("You cant carry more than 3 childrens")
+            Child_span.innerText = 3
+        }
+    }
+
+    function minusForChildrens() {
+        j--;
+        Child_span.innerText = j;
+
+        if (j < 1) {
+            alert("not possible")
+            Child_span.innerText = 1;
+
+            j = 1;
+            window.location.reload("sorry you ");
+
+        }
+    }
+
+    let aj_done_btn = document.getElementById("aj_done_btn")
+    aj_done_btn.onclick = () => {
+        let span1 = document.getElementById("aj_t_span1");
+        let span2 = document.getElementById("aj_t_span2")
+        aj_adult_span.innerText
+        span2.innerText = (+aj_child_span.innerText) + (+aj_adult_span.innerText)
+        let aj_go_btn_div1 = document.getElementById("aj_go_btn_div1")
+        aj_go_btn_div1.style.display = "none"
+
+    }
+    let aj_search_btn = document.getElementById("aj_search_btn")
+    aj_search_btn.onclick = () => {
+        window.location.href = "top_search_page.html"
+    }
+
+
+
+
+
+    // -----------------------------travel E code-----------------
+
 </script>
