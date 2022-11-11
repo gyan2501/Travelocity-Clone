@@ -1,8 +1,10 @@
 let uuuu = document.getElementById("uuuu")
 let ww = document.querySelector(".ww")
+let qq = document.querySelector(".qq")
 
 uuuu.onclick=()=>{
     ww.classList.toggle("yyy")
+    qq.classList.toggle("nb")
 }
 
 
