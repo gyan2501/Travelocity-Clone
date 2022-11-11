@@ -21,3 +21,34 @@
     rd_last_explore.addEventListener("click",()=>{
         window.location.href = "https://www.expediagroup.com/home/default.aspx";
     })
+
+
+    let account = document.getElementById("account");
+    account.addEventListener("click",()=>{
+        window.location.href =  "./Signuplogin/signup.html";
+    })
+
+
+    let support = document.getElementById("support");
+    support.addEventListener("click",()=>{
+        window.location.href =  "support.html";
+    })
+
+    let list = document.getElementById("rd_list");
+    list.addEventListener("click",()=>{
+        window.location.href =  "property.html";
+    })
+
+    let property = document.getElementById("rd_add_btn");
+    property.addEventListener("click",()=>{
+        window.location.href =  "property.html";
+    })
+    // const account = () =>{
+    //    "Signuplogin/signup.html"
+    // }
+   
+
+    // let rd_logo = document.getElementById("rd_logo");
+    // rd_logo.addEventListener("click",()=>{
+    //     window.location.href = "./Signuplogin/signup.html"
+    // })
