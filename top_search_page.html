@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome icon library -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="top_search_page.css">
+</head>
+<style>
+    /* #aj {
+        width: 80%;
+        height: 30px;
+        border: 3px solid red;
+        margin: auto;
+    } */
+
+    #aj_search_div {
+        /* border: 1px solid black; */
+        width: 80%;
+        /* height: 20%; */
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: auto;
+        margin-top: 15px;
+
+    }
+
+    #aj_search_div button {
+        background: transparent;
+        border: .5px solid black;
+    }
+
+    #aj_go_btn img {
+        width: 15px;
+        height: 15px;
+    }
+
+    #aj_go_btn {
+
+        font-size: 18px;
+        font-weight: 700;
+        width: 453px;
+        height: 48px;
+        border-radius: 10px;
+        text-align: left;
+        background: transparent;
+
+    }
+
+    .aj_date {
+        width: 174px;
+        height: 48px;
+        border-radius: 10px;
+    }
+
+    .aj_date input {
+        border: none;
+        background: transparent;
+    }
+
+    #aj_travel {
+        width: 267px;
+        height: 48px;
+        border-radius: 10px;
+    }
+
+    #aj_travel {
+        border: 1px solid black;
+
+    }
+
+    #ls_span {
+        font-size: 18px;
+        font-weight: 700;
+        margin-left: 10px;
+    }
+</style>
+
+
+<body>
+    <div id="navbar"></div>
+
+    <div id="aj">
+        <div id="aj_search_div">
+            <button id="aj_go_btn"><img src="https://i.postimg.cc/wvL4RBKP/marker.png" alt="">
+                Going to :-<span id="ls_span"></span></button>
+            <button class="aj_date">Check-in <span id="aj_in"></span></button>
+            <button class="aj_date">Check-out <span id="aj_out"></span> </button>
+            <button id="aj_travel">
+
+                <br><span id="aj_t_span1">1</span> <label for="aj_t_span1">room</label>
+                <span id="aj_t_span2">2</span> <label for="aj_t_span2">traveler</label>
+
+
+            </button>
+
+        </div>
+    </div>
+
+    <div id="main">
+        <div>
+            <div id="map">
+                <iframe
+                    src="https://maps.google.com/maps/ms?msa=0&msid=211373622930696574220.0004b07b542fb5489b109&oe=UTF8"
+                    frameborder="0"></iframe>
+            </div>
+
+            <h3>Search by property name</h3>
+            <input id="search" placeholder="    e.g Best western" type="text">
+            <div style="border-bottom:1px solid #505c66 ;padding-top: 25px;"></div>
+            <h3 style="font-size: larger;">Filter by</h3>
+            <h4 style="font-weight:bold">Popular filters</h4>
+            <input style="height: 22px
+               ; width: 19px;" type="checkbox" name="" class="checkbox">
+            <label for="">Hot tub</label>
+            <br>
+            <input style="height: 22px
+               ; width: 19px; margin-top:10px;" type="checkbox" name="" class="checkbox">
+            <label for="">
+                Spa </label>
+            <br>
+            <input style="height: 22px
+               ; width: 19px; margin-top:10px;" type="checkbox" name="" class="checkbox">
+            <label for="">
+
+                All inclusive
+
+
+            </label>
+            <br>
+            <input style="height: 22px
+               ; width: 19px; margin-top:10px;" type="checkbox" name="" class="checkbox">
+            <label for="">Pousada (Portugal)</label>
+
+
+            <br>
+            <input style="height: 22px
+               ; width: 19px; margin-top:10px;" type="checkbox" name="" class="checkbox">
+            <label for="">Casino Pearl</label>
+            <h3 style="">Star rating</h3>
+            <div id="starKing">
+
+                <div>
+                    1<i style="height: 15px; width: 15px;background-color: white; " class="fa fa-star x"
+                        aria-hidden="true"></i>
+                </div>
+                <div>
+                    2<i style="height: 15px; width: 15px;background-color: white; " class="fa fa-star x"
+                        aria-hidden="true"></i>
+                </div>
+                <div>
+                    3<i style="height: 15px; width: 15px;background-color: white; " class="fa fa-star x"
+                        aria-hidden="true"></i>
+                </div>
+                <div>
+                    4<i style="height: 15px; width: 15px;background-color: white; " class="fa fa-star x"
+                        aria-hidden="true"></i>
+                </div>
+                <div>
+                    5<i style="height: 15px; width: 15px;background-color: white; " class="fa fa-star x"
+                        aria-hidden="true"></i>
+                </div>
+            </div>
+            <div>
+                <h3>your budget</h3>
+
+                <input style="height: 22px
+           ; width: 19px;border:1px solid red;" type="checkbox" name="" class="checkbox">
+                <label style="" for="">Less than $75</label>
+                <br>
+                <input style="height: 22px
+           ; width: 19px; margin-top:10px;" type="checkbox" name="" class="checkbox">
+                <label for="">
+                    $75 to $125 </label>
+                <br>
+                <input style="height: 22px
+           ; width: 19px; margin-top:10px;" type="checkbox" name="" class="checkbox">
+                <label for="">
+
+                    $125 to $200
+
+                </label>
+                <br>
+                <input style="height: 22px
+           ; width: 19px; margin-top:10px;" type="checkbox" name="" class="checkbox">
+                <label for="">$200 to $300</label>
+
+
+                <br>
+                <input style="height: 22px
+           ; width: 19px; margin-top:10px;" type="checkbox" name="" class="checkbox">
+                <label for="">greater than $300</label>
+            </div>
+            <div>
+                <h3>Guest rating</h3>
+                <input style="height: 22px
+           ; width: 19px;border:1px solid red;" type="radio" name="" class="radio">
+                <label style="" for="">Any</label>
+                <br>
+                <input style="height: 22px
+           ; width: 19px; margin-top:10px;" type="radio" name="" class="radio">
+                <label for="">Wonderful 4.5+</label>
+                <br>
+                <input style="height: 22px
+           ; width: 19px; margin-top:10px;" type="radio" name="" class="radio">
+                <label for="">
+                    Very good 4+
+                </label>
+                <br>
+                <input style="height: 22px
+           ; width: 19px; margin-top:10px;" type="radio" name="" class="radio">
+                <label for="">Good 3.5+</label>
+
+
+
+            </div>
+            <h3>Payment type</h3>
+
+
+            <input style="height: 22px
+       ; width: 19px; margin-top:10px;" type="checkbox" name="" class="checkbox">
+            <label for="">
+                Fully refundable </label>
+            <br>
+            <input style="height: 22px
+       ; width: 19px; margin-top:10px;" type="checkbox" name="" class="checkbox">
+            <label for="">
+
+                Reserve now,pay later
+
+            </label>
+            <br>
+            <div>
+                <h3>Property type</h3>
+
+
+                <input style="height: 22px
+       ; width: 19px; margin-top:10px;" type="checkbox" name="" class="checkbox">
+                <label for="">
+                    Posusada(Portugal) </label>
+                <br>
+                <input style="height: 22px
+       ; width: 19px; margin-top:10px;" type="checkbox" name="" class="checkbox">
+                <label for="">
+                    Motel
+
+                </label>
+                <br>
+                <input style="height: 22px
+       ; width: 19px; margin-top:10px;" type="checkbox" name="" class="checkbox">
+                <label for="">
+                    Condominium resort
+                </label>
+                <br>
+                <div>
+                    <h3>Traveler experience</h3>
+
+
+                    <input style="height: 22px
+           ; width: 19px; margin-top:10px;" type="checkbox" name="" class="checkbox">
+                    <label for="">
+                        Business friendly </label>
+                    <br>
+                    <input style="height: 22px
+           ; width: 19px; margin-top:10px;" type="checkbox" name="" class="checkbox">
+                    <label for="">
+
+                        Family friendly
+
+                    </label>
+                    <br>
+                    <div>
+                        <h3>Neighborhood</h3>
+                        <input style="height: 22px
+           ; width: 19px; margin-top:10px;" type="checkbox" name="" class="checkbox">
+                        <label for="">
+                            Marmagao
+                        </label>
+                        <br>
+                    </div>
+                    <div>
+                        <h3>Meal plans available</h3>
+
+
+                        <input style="height: 22px
+           ; width: 19px; margin-top:10px;" type="checkbox" name="" class="checkbox">
+                        <label for="">
+                            Breakfast included
+
+                        </label>
+                        <br>
+                        <input style="height: 22px
+           ; width: 19px; margin-top:10px;" type="checkbox" name="" class="checkbox">
+                        <label for="">
+                            Lunch included
+
+
+
+                        </label>
+                        <br>
+                        <input style="height: 22px
+           ; width: 19px; margin-top:10px;" type="checkbox" name="" class="checkbox">
+                        <label for="">
+                            Dinner included
+                        </label>
+                        <br>
+
+                        <div>
+                            <h3>Accessibility</h3>
+
+
+                            <input style="height: 22px
+                   ; width: 19px; margin-top:10px;" type="checkbox" name="" class="checkbox">
+                            <label for="">
+                                Wheelchair-accessible parking
+
+                            </label>
+                            <br>
+                            <input style="height: 22px
+                   ; width: 19px; margin-top:10px;" type="checkbox" name="" class="checkbox">
+                            <label for="">
+
+                                Elevator
+
+                            </label>
+                            <br>
+                            <input style="height: 22px
+                   ; width: 19px; margin-top:10px;" type="checkbox" name="" class="checkbox">
+                            <label for="">
+
+                                Accessible bathroom
+                            </label>
+                            <br>
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div>
+            <div id="sortingDiv">
+                <div>
+                    <a href="">See how we pick our recommended properties <i class="fa fa-info-circle"
+                            aria-hidden="true"></i></a>
+                </div>
+                <div id="rightSide">
+                    <div id="">
+                        <select name="" id="aj_sort">
+                            <option value="">recommended</option>
+                            <option value="price"> price</option>
+                            <option value="">Distance from airport</option>
+                            <option value="">Guest rating + our pick</option>
+                            <option value="">Price+our pick</option>
+                            <option value="rating">star rating</option>
+                        </select>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+
+            <div id="dataAppender">
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+<script src="top_search_page.js">
+
+
+</script>
