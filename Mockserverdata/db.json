@@ -1,0 +1,50 @@
+{
+  "data": [
+    {
+      "id": "1667812604844Abhishek Jha",
+      "name": "Abhishek Jha",
+      "price": "52000000",
+      "description": "tyytf",
+      "delivery": "1996-12-12",
+      "image": "Abhishek Jha"
+    }
+  ],
+  "admindata": [
+    {
+      "id": 1668185766252,
+      "name": "Abhishek Jha",
+      "place": "konnagar",
+      "description": "tyytf",
+      "price": "10",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1662421740070-f69fe90a987c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1MXx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60"
+    },
+    {
+      "id": 1668186780658,
+      "name": "Abhishek Jha",
+      "place": "konnagar",
+      "description": "dfgsdgsdgsd",
+      "price": 345,
+      "rating": 1,
+      "image": "https://images.unsplash.com/photo-1662421740070-f69fe90a987c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1MXx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60"
+    },
+    {
+      "id": 1668187037780,
+      "name": "Abhishek Jha",
+      "place": "konnagar",
+      "description": "ftyftty",
+      "price": 52000000,
+      "rating": 1,
+      "image": "https://images.unsplash.com/photo-1662421740070-f69fe90a987c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1MXx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60"
+    },
+    {
+      "id": 1668187500759,
+      "name": "Rahul jha",
+      "place": "konnagar",
+      "description": "asfasdf",
+      "price": 2134,
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1662421740070-f69fe90a987c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1MXx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60"
+    }
+  ]
+}
