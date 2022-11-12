@@ -274,12 +274,12 @@ let ls_span = document.getElementById("ls_span")
 ls_span.innerText = place
 
 let obj = JSON.stringify(localStorage.getItem("obj")) || []
-console.log(obj)
+console.log(obj.d1)
 
-// let aj_in = document.getElementById("aj_in")
-// aj_in.innerText = obj.d1
-// let aj_out = document.getElementById("aj_out")
-// aj_out.innerText = obj.d2
+let aj_in = document.getElementById("aj_in")
+aj_in.innerText = obj.d1
+let aj_out = document.getElementById("aj_out")
+aj_out.innerText = obj.d2
 
 appendData(data);
 
