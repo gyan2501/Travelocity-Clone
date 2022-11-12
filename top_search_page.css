@@ -10,7 +10,6 @@
 
 #main>div:first-child {
     width: 25%;
-    /* border: 3px solid black; */
 }
 
 #search {
@@ -33,6 +32,7 @@
     /* border: 1px solid black; */
     font-weight: bold;
 }
+
 
 
 .checkbox>input[type="checkbox"] {
@@ -99,6 +99,7 @@ select:focus {
 #rightSide>div {
     float: right;
 }
+
 
 #mainDiv {
     width: 100%;
