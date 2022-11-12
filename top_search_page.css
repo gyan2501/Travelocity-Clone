@@ -1,13 +1,11 @@
-/* #container{
- width: 97%;
- border: 1px solid black;
-    } */
 #main {
     display: flex;
-    width: 97%;
+    width: 80%;
     margin: auto;
     gap: 20px;
     margin-top: 20px;
+
+    /* border: 3px solid black; */
 }
 
 #main>div:first-child {
@@ -35,14 +33,7 @@
     font-weight: bold;
 }
 
-a {
-    /* color:#505c66; */
-    /* filter: contrast(60%); */
-}
 
-#main>div {
-    /* border: 1px solid black; */
-}
 
 .checkbox>input[type="checkbox"] {
     height: 35px;
@@ -70,9 +61,7 @@ a {
     font-size: smaller;
 }
 
-#map {
-    /* border: 1px solid black; */
-}
+
 
 a {
     text-decoration: none;
@@ -111,10 +100,6 @@ select:focus {
     float: right;
 }
 
-#dataAppender {
-    /* border: 1px solid black; */
-    /* background-color: aqua; */
-}
 
 #mainDiv {
     width: 100%;
