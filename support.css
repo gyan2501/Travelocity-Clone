@@ -95,6 +95,10 @@
 
 
 
+
+
+
+
 #rd_vac{
     height: 50px;
     width: 100%;
@@ -147,6 +151,9 @@ a:hover:after {
     width: 100%;
     margin-bottom: 0px;
 }
+
+
+
 
 
 
@@ -228,9 +235,13 @@ a:hover:after {
     height: 90%;
 }
 
+
+
+
+
 #rd_gray_div{
     width: 100%;
-    height: 700px;
+    height: 1000px;
     background-color: #ededed;
 }
 #rd_yellow_div{
@@ -256,12 +267,6 @@ a:hover:after {
 #rd_fail{
     width: 70%;
     height: 100%;
-}
-.rd_refund_div{
-    font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
-    padding-top: 9px;
-    color:#004e93;
-    font-weight: 700;
 }
 
 
@@ -291,6 +296,88 @@ a:hover:after {
     grid-auto-rows: auto;
     gap: 2px ;
 }
+
+.flight_para{
+    font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    margin-left: 20px;
+    color: blue;
+    font-size: 16px;
+}
+#rd_flight1{
+    background-color: white;
+    display: flex;
+    height: 41px;
+}
+#dtl_flight1{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: none;
+}
+
+#rd_flight2{
+    background-color: white;
+    display: flex;
+    height: 41px;
+}
+#dtl_flight2{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: none;
+}
+#rd_flight3{
+    background-color: white;
+    display: flex;
+    height: 41px;
+}
+#dtl_flight3{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: none;
+}
+#rd_flight4{
+    background-color: white;
+    display: flex;
+    height: 41px;
+}
+#dtl_flight4{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: none;
+}
+#rd_flight5{
+    background-color: white;
+    display: flex;
+    height: 41px;
+}
+#dtl_flight5{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: none;
+}
+#rd_flight6{
+    background-color: white;
+    display: flex;
+    height: 41px;
+}
+#dtl_flight6{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: none;
+}
+
+
+
+
+
+
+
+
 .rd_flight{
     background-color: white;
     display: flex;
@@ -341,7 +428,7 @@ a:hover:after {
 #rd_refund_div{
     width: 58%;
     height: 430px;
-    border: 1px solid blue;
+    border: 0px solid blue;
     position: absolute;
     margin-top: 15%;
     margin-left: 30%;
@@ -349,10 +436,114 @@ a:hover:after {
     grid-template-columns: repeat(1,1fr);
     grid-auto-rows: auto;
     gap: 2px ;
+   
 }
-.rd_refund_div{
+
+#rd_refund_div1{
+    font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    padding-top: 9px;
+    color:#004e93;
+    font-weight: 700;
     background-color: white;
 }
+.rd_refund_div{
+    font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    padding-top: 9px;
+    color:#004e93;
+    font-weight: 700;
+    background-color: white;
+}
+#rrrr{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    overflow: scroll;
+    display: none;
+}
+.rd_change{
+    width: 95%;
+    font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    line-height: 20px;
+    margin-left: 20px;
+}
+.rd_before{
+    margin-left: 20px;
+    font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+
+}
+.rd_full{
+    margin-left: 20px;
+    font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+
+}
+.rd_in{
+    margin-left: 40px;
+    font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    
+}
+
+#rd_refund_div2{
+    font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    padding-top: 9px;
+    color:#004e93;
+    font-weight: 700;
+    background-color: white;
+}
+#mmmm{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    overflow: scroll;
+    display: none;
+}
+hr{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+ #rd_refund_div3{
+    font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    padding-top: 9px;
+    color:#004e93;
+    font-weight: 700;
+    background-color: white;
+}
+#xxxx{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    overflow: scroll;
+    display: none;
+}
+#rd_refund_div4{
+    font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    padding-top: 9px;
+    color:#004e93;
+    font-weight: 700;
+    background-color: white;
+}
+#zzzz{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    overflow: scroll;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #rd_add_btn{
