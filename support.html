@@ -23,7 +23,7 @@
                 <p id="rdp">List Your Property</p>
             </div>
             <div class="rd_list">
-                <p class="rdp">Account<i class="fa-solid fa-angle-down"></i></p>
+                <p id="account">Account<i class="fa-solid fa-angle-down"></i></p>
             </div>
             <div class="rd_list">
                 <p class="rdp">My Lists</p>
@@ -32,7 +32,7 @@
                 <p class="rdp">My Trip</p>
             </div>
             <div class="rd_list">
-                <p class="rdp">Support<i class="fa-solid fa-angle-down"></i></p>
+                <p id="support">Support<i class="fa-solid fa-angle-down"></i></p>
             </div>
             <div class="rd_list">
                 <p class="rdp">Espanol</p>
@@ -40,27 +40,28 @@
         </div>
     </div>
 
+    
 
     <!-- AFTER NAVBAR VACATION DIV -->
 
     <div id="rd_vac">
         <div id="rd_inner_vacation">
-            <div class="rd_vacation"><a href="">Vacation packages</a></div>
-            <div class="rd_vacation"><a href="">Saty</a></div>
-            <div class="rd_vacation"><a href="">Cars</a></div>
-            <div class="rd_vacation"><a href="">Flits</a></div>
-            <div class="rd_vacation"><a href="">Cruises</a></div>
-            <div class="rd_vacation"><a href="">Things to do</a></div>
-            <div class="rd_vacation"><a href="">Trip for Me</a></div>
-            <div class="rd_vacation"><a href="">Discover</a></div>
-            <div class="rd_vacation"><a href="">Travel Deals</a></div>
-            <div class="rd_vacation"><a href="">Get Inspired</a></div>
-            <div class="rd_vacation"><a href="">Groups & meetings</a></div>
-            <div class="rd_vacation"><a href="">Mobile</a></div>
+            <div class="rd_vacation"><a href="https://www.travelocity.com/Vacation-Packages">Vacation packages</a></div>
+            <div class="rd_vacation"><a href="https://www.travelocity.com/Hotels">Saty</a></div>
+            <div class="rd_vacation"><a href="https://www.travelocity.com/Cars">Cars</a></div>
+            <div class="rd_vacation"><a href="https://www.travelocity.com/Flights">Flits</a></div>
+            <div class="rd_vacation"><a href="https://www.travelocity.com/Cruises">Cruises</a></div>
+            <div class="rd_vacation"><a href="https://www.travelocity.com/Activities">Things to do</a></div>
+            <div class="rd_vacation"><a href="https://www.travelocity.com/tripsforme/?rfrr=headermenu">Trip for Me</a></div>
+            <div class="rd_vacation"><a href="https://www.travelocity.com/discover">Discover</a></div>
+            <div class="rd_vacation"><a href="https://www.travelocity.com/Deals">Travel Deals</a></div>
+            <div class="rd_vacation"><a href="https://www.travelocity.com/inspire/">Get Inspired</a></div>
+            <div class="rd_vacation"><a href="https://groups.travelocity.com/Group-Rate/?locale=en_US&ol=1">Groups & meetings</a></div>
+            <div class="rd_vacation"><a href="https://www.travelocity.com/app">Mobile</a></div>
         </div>
     </div>
 
-
+    <!-- <div id="rd_chat"></div> -->
     <!-- FOR SEARCH BAR ONLY -->
     <div id="rd_customer">
         <h2 id="rd_customer_service">Customer Server</h2>
@@ -72,10 +73,12 @@
 
 
     <div id="rd_sign">
-        <div id="rd_sign_div"><a href="">Sign in </a> for help with your tips</div>
+       
+
+        <div id="rd_sign_div"><a href="./Signuplogin/signin.html">Sign in </a> for help with your tips</div>
         <h2 id="rd_your">Your Virtual Agent is here to help you</h2>
         <div id="rd_cancel">
-            <div class="rd_cancel">
+            <div class="rd_cancel" onclick="signin()">
                 <div id="rd_logo_div">
                     <img id="rd_cancel_logo"
                         src="https://cdn4.iconfinder.com/data/icons/inituh-communication-illustrate-set/128/No_files_Data_Document_Missing_Error-512.png"
@@ -117,7 +120,9 @@
     <div id="rd_gray_div">
         <div id="rd_yellow_div">
             <div>
-                <img id="rd_fail" src="https://img.freepik.com/premium-vector/caution-icon-exclamation-mark-warning-signs-attention-triangle-symbol-warning-alert-error_659151-155.jpg?w=2000" alt="">
+                <img id="rd_fail"
+                    src="https://img.freepik.com/premium-vector/caution-icon-exclamation-mark-warning-signs-attention-triangle-symbol-warning-alert-error_659151-155.jpg?w=2000"
+                    alt="">
             </div>
 
             <div>
@@ -129,58 +134,109 @@
         <p id="rd_brows">Browse Help Topics</p>
         <p id="rd_popular">Popular Topics</p>
         <div id="rd_flight">
-             <div class="rd_flight">
-                <div class="rd_flight_logo"></div>
+            <div class="rd_flight">
+                <div class="rd_flight_logo">
+                    <p><i class="fa-solid fa-jet-fighter"></i></p>
+                </div>
                 <div class="rd_para">Flights</div>
-             </div>
-             <div class="rd_flight">
-                 <div class="rd_flight_logo"></div>
+            </div>
+            <div class="rd_flight">
+                <div class="rd_flight_logo">
+                    <p><i class="fa-solid fa-hotel"></i></p>
+                </div>
                 <div class="rd_para">Hotels</div>
-             </div>
-             <div class="rd_flight">
-                <div class="rd_flight_logo"></div>
+            </div>
+            <div class="rd_flight">
+                <div class="rd_flight_logo">
+                    <p><i class="fa-sharp fa-solid fa-boxes-packing"></i></p>
+                </div>
                 <div class="rd_para">Vacation Packages</div>
-             </div>
-             <div class="rd_flight">
-                <div class="rd_flight_logo"></div>
+            </div>
+            <div class="rd_flight">
+                <div class="rd_flight_logo">
+                    <p><i class="fa-solid fa-car"></i></p>
+                </div>
                 <div class="rd_para">Rental Cars</div>
-             </div>
-             <div class="rd_flight">
-                <div class="rd_flight_logo"></div>
+            </div>
+            <div class="rd_flight">
+                <div class="rd_flight_logo">
+                    <p><i class="fa-solid fa-ship"></i></p>
+                </div>
                 <div class="rd_para">Cruises</div>
-             </div>
-             <div class="rd_flight">
-                <div class="rd_flight_logo"></div>
+            </div>
+            <div class="rd_flight">
+                <div class="rd_flight_logo">
+                    <p><i class="fa-sharp fa-solid fa-bars-progress"></i></p>
+                </div>
                 <div class="rd_para">Things to do</div>
-             </div>
-             <div class="rd_flight">
-                <div class="rd_flight_logo"></div>
+            </div>
+            <div class="rd_flight">
+                <div class="rd_flight_logo">
+                    <p><i class="fa-solid fa-dice-three"></i></p>
+                </div>
                 <div class="rd_para">Others</div>
-             </div>
-             <div class="rd_flight">
-                <div class="rd_flight_logo"></div>
+            </div>
+            <div class="rd_flight">
+                <div class="rd_flight_logo">
+                    <p><i class="fa-sharp fa-solid fa-triangle-exclamation"></i></p>
+                </div>
                 <div class="rd_para">Travel Alerts</div>
-             </div>
+            </div>
         </div>
         <div id="rd_refund_div">
-            <div class="rd_refund_div">1</div>
-            <div class="rd_refund_div">2</div>
-            <div class="rd_refund_div">3</div>
-            <div class="rd_refund_div">4</div>
-            <div class="rd_refund_div">5</div>
-            <div class="rd_refund_div">6</div>
-            <div class="rd_refund_div">7</div>
-            <div class="rd_refund_div">8</div>
-            <div class="rd_refund_div">7</div>
-            <div class="rd_refund_div">8</div>
+            <div class="rd_refund_div">>Refund timelines, policies & processes</div>
+            <div class="rd_refund_div">>Book a flight using an airline credit</div>
+            <div class="rd_refund_div">>Gift card scams</div>
+            <div class="rd_refund_div">>Flight insurance</div>
+            <div class="rd_refund_div">>Beware of email scams</div>
+            <div class="rd_refund_div">>Cancel your vacation package</div>
+            <div class="rd_refund_div">>Hotel payment options</div>
+            <div class="rd_refund_div">>Change your flight</div>
+            <div class="rd_refund_div">>Low-cost airline bookings</div>
+            <div class="rd_refund_div">>About Unreal Deals and package savings</div>
         </div>
     </div>
 
 
     <button id="rd_add_btn">Add Your Property</button>
-    
 
-    <div id="rd_download"></div>
+
+    <div id="rd_download">
+        <div id="rd_logo_image">
+            <img id="travel_image"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABCFBMVEUAPnR7rtT////1gCUIPm8VP2gIQ3cAPHMANm8AP3QAOnIAJmcAL2sAM20AImQAPXW9ydYAOXggSHqEt9wANnuGlq7r8fXQ2OIAKWgAFV5ZcpUAO3dziaaGud59kKv/hRwAH2MANXz/hxnc5e0AHGJzps3n7fIALWuvu8v0+PpWha9mmMA9a5gANXsAAFbV3eZJZIswW4pejrYfUYRjk7xJeKO6cEHYey2paknhey/ofybPdTehr8IvTXxmepq2w9EADFw7WIM3Y5FkUWN+WVxrVWGeaUz/jAzIdDsyQ3CVZFBNS2ouQXJeT2eBW1jKdDmvbEbWfiySYFQAL4LwhR2Uo7hMbpQAAEjMj8HHAAASxklEQVR4nO2dCXvaOrOADelBtrywmMVACDvGIaeQpEmaBEJJm/N1SXt6e0O///9PriTveAEvsUNv5jnPSYONrdczGo1GI4f6680fLtRfeeqPlhz1V9pNeGZ5Jdx/eSXcf3kl3H95Jdx/eSXcf3klTFF4JkfxMPJlXiwhAO/Eljg84aNe6MUS0hkxg6Q14XgQ6UIvlZCbEMBMRhxe5CKZ6gslhCetjC5i65yOcKmXSpixihgF8WUS0heiDTFTCt8X0yX0aje3AZjJ0KER0ySEELhbH3/sIBxyYe+SIiE8uRdP3BoOSg7AjPguLGJ6hPC0JWbEiew0P/7MSZgRj0OO/SkS3mMOMcM4Rjvo5MNj/0m4YTFtQpehAJ66qBDJJJwS0yME53rUcmpvumOo0GXfCFHkqdufHZGfuAMO947QJGndWxvPuKtQvAgX2KRJaI564qnZevrEw0hhuEE/zfHw3kQRzw1HyblrcJgLGdWkSAhKLQuBMUXKtVwAW8dc2LAtzagN2MyR0RDcCMXT0EFbqoS8jWKodkXgQihGyWWkScgNbRgTiXx45lRh+LCbSlmH9qFdPJPdo+4WE+UuqfbDc7tBti54inZOnMSLSPm2VAnBBk3rhOc3+YwOGlZSnePzww2Y1rkzJm2dRssKp0roNEnR2QtDT301SZXQGtV4iRg1r59uJiq3FbB1Eq0Xpk3o6IgOiTQUEkmZ0GV4t9voebRFCyptQug1U9IBw6afLJIQoYcmjEyGl4RPBBuSCCHgAcO7egz3tJourfvoC6TJENJnojg84Xg0S9/Qib+rmcgx3DwJQv4dtsXW5BhFJ5DnrJbn62rEXBx3T4DQCLBFEYcsk4tzHquTcHomZTLhU08bkgDhZv5TbGUmxyfnkKdpyPs501gAkyDkXPKfWJsI8/7Upx/GMFJgSYLQ0wxFl0DbPBq9DINIAoT89vDaXTwXUANJEr7ULT2YHOLzE9rSogElhpAmCcLz8IT7EbVFIhyGXKywyAsnFCOmoahEPA0TgRAhhl6w0CSJ8XDrRH4LYrTbJxmXhkWM5m4SmVt4LczvigijTBMTmR9yZ5G0mMlEqb9MJoshH0dD3CzXCCIJ5Wm402EkS21dvPg1YMjfT8RWeEpxkgvpU5PLJkKeOj0eiqHNVTzLcWGG/0TzpYCXaUwZkrE1vMgF356QeEYY8vz5tky3tx7FSWCfk0bOG3BbUt2+kO8CIqaS1XepAQ6AmAnmclIh9Mzc7IY4CYSYBiE8jTj+B1pTTIPQf7Lhm4DTTglytxQI/fLcaFZ/cnF8NnRb0LcQngXwNskTAt/1JvGEo3meo88vJhlvyFaAFY3kCf1VKGr16oDmmft3XpoMosTkCbf0QstyDOTBydA9lhV39zXJxzT3vo5UPLa1HXIUivJcNpjsvi6VOOG2sdCx5wBFeQ7I1nD3QqmkCblt4YxL+hDwyPGgWYlqsGgONrkPEIAnTOi1W8SiI9fvAYgoT47P3r07uziFgSYYCRPS7m4GhdM6oncFDYA0z3E8DYLN9pMl9Aq5J5xxRIyj/sIqyRLSHn4UmLXB4sU+E7oUAGNp4c0Wxg6amBa3DUmU0L16RjzmGEs9Q8gtap6SJCEAriaq7tgyg7nI1Yh2SbYfuhmp5jwNHUYumd2QuAmbfm/wo90AtX5nONMg84ZdJFZC0Cx+fCyXi17H3Spr9H2ThpW2opeU2iQ+wmYXPH687T1dXX5qepziEnW39C1pxnARdr+vl4QkzDv0VH64affaB0jaPU9LlR3bD8yNh7qjjamczZBwhODxHzsiKF72DjRpX5Y9v7dRMWute+KPtQ+DpCh2kHCEzYf/XHatHxQ/tw8MwgcvK92c34vW3bHGUnH04nWbhCPs3iJNWRCbnwwNIsIvXlYKbLsPRLFks0dj5vgC+mHxH6Sx9lXT0FX3ygQ8uPb0pda3zuD5hN1p6uOFGHEb0IaEIcw/XqssH7UOl/9iVeFnT0KKe2dMkoaObaGGN403Mg1F+FEDar8vEzWWL9sWwq/ehBR91hJFNFsfntBOReneNOTGew8JZ6U6UfvmG1YjtNion6NBwucujo9P3JcB9d0XMWwjsUg4T1O80Xl674v55oNFhQdPno5GFZp3UR8RPTKPd0QMRwgfnwyVXT9231sJb3yMdIvolfuxTqBCxjTNbxbf8uXWaqXe4/1WMUpRA6ZifCVsXFr8biL2rIDtH+F1qIfmsQbfYQmZ4sOBq/SYJmwWdfFzOi6irSyKcQbfYSPvcvHxX1fC9j8fvz/8eH97fX19e/n1IR/MZrUBI+havZ+EImx2v1zetF0BESIR/d8HP5tBrFYLTuMMTYMT5ov5H1c9Lz4ncO8hiBphaYgXgVMkZIqPPw92xlN75q8giIA7vzhOsx92f7WD8WFE3yjHIYCm0xvx8+XPve1EDrkJ6FJjlUCE+eZVYAViaX+POUMYRIIQ5pueDnQL4Y8UlRiEsBhOg3iWFSHOiSoBCJv/ExJwbwjzjz9vzMH8TyREYz349vHH+89XT+3eVlLLs2jvDSGFnU2zWC7DN98efv38fIUClt4mKYK/ubq6+vfnr19fb8nQ0rvsfUvx7xGFzAjnEWj373L+y/dPXy9thJ/eFMt/d7vdcrFZ7H65bbefvjSpFAeLqOsWeTRT+l/rJKNti0Lz3curx+YuW0GhxLL4vyiNcZcYVmbKtil+76MtCi0WdzJQuTQfj9bT/jyOtyjYJQ7CK5uZBgu0ifCdu6wmRzGvcT8H4UHvZ3f7l6wiH051wOwq9i4bA2Hz6WAD8X0gRN5QYDbbr0d6+5ybRCcEbxwjY3sboi1jWh+ZhOuX2A/zRmLx2kBtX5b9/CdTmZlOkz80AbNhX1LqI9EJiz80sKeimRlu3xa9OxRfyWbHxh4mtm8C1oSIjXGR6ITln21db91/TcTrR88ZEyghmFFJ9Zr0zKLCw9g9aRyEXW3Ax6GZuZ6B5JtnMMrOEY2yIjjS2AQcRd237SYx6FCjuuri6YcFsffdCxHQChkZMCJUTMK7Z1BhHP1QtUw13QSteQ5vRBkrMauUIEVb/ExhELEprhKdkGlrfob8li/fWhC/efVFnriXkQTqNZOQeQYbjYFQW+E2V37L1rKMR4+oFJaIcdY6OROw8gxhNxUDIVSHQ0sBhmXNu33lZaf8iiCu5wbglI3WEC+JTKgtAH+2hNt//9RjgJsnDzOl2bcW8ySyqEvkRSZxh22RCYu/MGH7oxWl+15FbP/jvuLNDRrj0QZgtl+bz7jOYNBhX0A9jVXKJJC5ts+Yur/U/MWnDSMFEivJsnSkbOLpovSntfEq1sK26IQ4ieFY+C1/6h38e+MAXI0L037fob5NzFidanRCHNL0nKWK35++djc7IX23hU2TdZxOJzrhLakccnzeLL5xaILpzLfjYZmlv8ptSvEaDxW7mpWwGnv2QdVCq4qi1F4WIfI0tztnZhjIwrt5bVTdJBvVxvP1+qhRgkwJCHF60xji0qf2r0ApbV5mebBY/T6smC5n/hY7WQ6/+TPOWhos0Qmb3//zLegzB3ibFv3W4lQrzzD3VSWGTFTxe7icPd2wmukzRaXx1OqH7DUdPYc4Jc5nFm8BuyHpve3azECtSBQ+eiYlpkYIOL0X1gSaTBfHzzIBTo+QM+KbO56CEkb8/Sx2mhYhyOkjP0k/QQb92u88x51SImQ6BV2Fapqbw72y8RxKTIkQcLoKFc0Ty6hbjp/D2aRlpbLuZ+baPAK71heaLw0lzEBPYhiGiexWWfw5hBRXsasQiXz3e/UHEVKS2gutb+6k43gxskPSGw9JSHMU87ZmF0GEKdW6yA0lW3i2GYUpKf4VFn5VSgAw1b8zE/1N1rtIun9JJwl5Jdx/eSXcf3kl3H95Jdx/eSXcf3kl3H95JXwO4eIvBPaR7YRczAWDrFSZ754XxRtKjWkkDJNP3UIIJLA+jDMTDeA4my0IuxY+gVKj0dAycDS7mod405k/IViMlXgLd+EiG4SQ1Kes1ZfyNWpGgjyI+BPiiux4CUkFdABCvE5cIQ0QptlsNX7CoxdEWPsjCcHpurJWq2uSIGT0H8D4AGzPl5GTjLM2Ca3HdIGWiwKOI/sWGIrFhCGyc36EdP0tTkzfva3XyQK0gH4CCnYEqqQeH3RyqxVdl0hZqFSv16H5Vf0XKAxyq4Vc510IoYAucMrVrYlveiCUVufsgDYvhL7KsPX/IsIR+q0uMQD93/gO/qVDUZLAuuP7ENKNESkjHPX7/Rp6rFIB/QTsrKCuakL2Tl3lrM4X6Fdp3u+P9H1Z9Az9QoxLWi3JSuH0SIKbhNJCPdY/4vRHA9iGuig1PSRlpnQDXeiIZthlv4/PRU3pz9kF+vBQQwQ53DyJH8/H7rvC/AgtlYQFllLNpL4m67Ycxa3MDWe43of+jVeStCFZmqMHgyMXwSzV6y9oOyG7No+pey+QTRpLw9kagKan6Vgqihs07pJT7VakI80/LNfzdcE1VvInVPBzU9D/8bZATNg/UlemOX6mlqIvCwQUPVEJfTDqaIR9Qst0xtpJuI6NlI2ahCr8VD2WXajeBF9MqY0JZ58HBqFQUMhpqC0Ko1KpGlMXIhfS8mhambsuP/r1Q0BLxNNINNlrxmrPcXpXUhuaXUJBYjsNdZWMXWb1skm4Io+a4vDXayV0EotR8a4mg5CU04xW+BjW5QgvYQj4rAIvSALA91qy5mgBaYxS5UkQB2TTXmj85bpUqBzOa64LWb6+FHCqL1XdnUa4/kADAFcFJTv+QD4nyjjkSWPU28qozVUW+UlSYEGg6wUV2iAUFLyGT/xJHV8AdW2It0DV6uTOAik/gQYhAOpoAXBbmA56mgrxfqSFaxlQy/XYvaoqwGihEs5JC5AbLM3J5wzFkVZwACI76hNC3LwlyxA1aTt9SOvHsk6oqlCrZQN8Fa/hUxKxArWZPOoitTvaY8SHjaxWuSEQI0XUUsn979MHJqzW9WNAxqOZPGAXa0LIsAWtdxAKdH98d6UDVGGrxDvohKTaRB/3iA3PaB557r6+4AbvciztFdMAGV1t2cFFjor+WL0kKKFl0ZaBEjeba52zwqlqQV6WknE0i1qKoWpCjsGSk3BYiexbIxSqFhryzSMZ996xsa5PJk1eURvZ8UZr3/TfeBqU0HRXQJiNzVJfREgBhex8YepTzZlkN0QBug4ByFr2U5I9iHO24WytFyH5Bnraht3ERjgyX/tb0oauaq2gERLLKyHTw19CTiXnQ0h+6PoivndJtqxvLOx7Rt5ynzwh/FD7/pX9QQn1rkOr42F1PoP1hkZIzq5wuJBEySEYhvBbhbIRLqMQ4s6/4FzUHpGwqhNiK8uO7uoyBCT2IVaKh6npADelhhuPrXT537opA1OHMJqVork5GbgKto4TJyEOy7IoGiSt0AkpEl/QeOMdUQX2JqONolHDl7p4moXN0yAb8Jsf4grj0VtspFvKUsMRMgM8IGuvWaV1K1VPPzrUO79gdwOSJS5V+6x+xDJajIzyDFAaeI4WlDbUG882dkISkUw/qC0ZzPX7qM0v6Nohyl3qj7hemHEmoZqAYckcg8Q+I0kdAvTApD7OFg69RnzywDT3tW2T1E6EjINwgB63IuB/c9w4azxJPXRVexPgsKaPCC3srO1R26BKXAU+rb5UXQxxOH0yywICfgJTwUFo4gxUX751C/8OhJUPrIAnuVZCYlcF2OnQR2oZZUWtg9Xq8TTT5Ml+gzktCJ0FphjxlsgbI1QbgiDQ+FrE5ZNd7LVFhxVI0FAFwEKIb68AfExtmza52/oyFH9C+Js8pkKtii5kJVTnFkqhRqaliq41ogWLeyFzExRgFtT3JswsOlRxsiP1EkrOyMUg1amf4dOthPgZVQvomPoecG3L+9aCzS11bZz+SgekFXZqMRPO3A4yl9GtCmpsqL4Cwsxpsw3LRq6GbJsBdyrGkWlO632DpfHZaMHbfKnx8oWpFhqrM7KtG/m25LxhqVDF05waapw8nk4LRkfgFmN0RBmNVwIsoANqE7mj6XTat4RRPFeZkulvdVzC/RmU0AnaE5BK85GCg4JDwVCEMFviy1anRwK+Iv0bna4l3eUGNhZF0Z2n6cOjEFKAhavZqkTKk2WWlUybgCy/mC045BiA+YInhmeRWONEwLEAXWHBaYkigI7rrYKSXFqtAGvtSjS+LPqM0+/CsnqkyEvo7AWln01G0dLW/OIOa08QeqQMwQ65RHIe9LwEvrjLZb2aDazXGUzxhv6td9/P9UM034QkJ7bD/oW9JISrUmlG/Ex9+8n7SVglSUDLXM5H9pFQf3VWzesF/TbZS8JKv1rtLxudnfzcPhJSPCvLErvj0vReEgaSV8L9l1fC/ZdXwv2XV8L9l/8XhCm+azsJQYRv/nD5P1zKzWEFhwqaAAAAAElFTkSuQmCC"
+                alt="">
+        </div>
+        <h2 id="travel_app">Download the Travelocity app</h2>
+        <input type="number" id="number" placeholder="enter your phone number">
+        <button id="rd_send">Send</button>
+        <div id="rd_access">
+            <div class="rd_access_div">
+                <div class="rd_right">
+                    <p><i class="fa-solid fa-check"></i></p>
+                </div>
+                <div class="rd_right_para">Access and change your itinerary on-the-go</div>
+            </div>
+            <div class="rd_access_div">
+                <div class="rd_right">
+                    <p><i class="fa-solid fa-check"></i></p>
+                </div>
+                <div class="rd_right_para">Free cancellation on select hotels</div>
+            </div>
+            <div class="rd_access_div">
+                <div class="rd_right">
+                    <p><i class="fa-solid fa-check"></i></p>
+                </div>
+                <div class="rd_right_para">
+                    Get real-time trip updates</div>
+            </div>
+        </div>
+        <p id="rd_by">By providing your number, you agree to receive a one-time automated text message with a link to get the app. Standard text message rates may apply.</p>
+        <div id="rd_barcode">
+            or scan the QR code
+            <img  id="scaner" src="https://a.travel-assets.com/mad-service/footer-legal-qr-codes/80001.jpg" alt="">
+        </div>  
+    </div>
 
     <button id="rd_explore">Explore More</button>
     <div id="rd_explore_div">
@@ -188,29 +244,36 @@
         <div class="rd_exp_div">
             <div class="rd_exp_inner_div">Travelocity</div>
             <div class="rd_exp_long_div">
-                About Travelocity   Customer Support   Press Room   Advertising   Jobs   TV Ads   Privacy Policy   Terms of Use   Site Map   Accessibility   Support   Do Not Sell My Personal Information</div>
+                About Travelocity Customer Support Press Room Advertising Jobs TV Ads Privacy Policy Terms of Use Site
+                Map Accessibility Support Do Not Sell My Personal Information</div>
         </div>
         <div class="rd_exp_div">
             <div class="rd_exp_inner_div">Other Links</div>
-            <div class="rd_exp_long">     
-        USA Vacation Packages USA Flights USA Hotels USA Car Hire Unique Places to Stay Travelocity Merchandise Travelocity Guarantees Subscribe Create an Account  </div>
+            <div class="rd_exp_long">
+                USA Vacation Packages USA Flights USA Hotels USA Car Hire Unique Places to Stay Travelocity Merchandise
+                Travelocity Guarantees Subscribe Create an Account </div>
         </div>
         <div class="rd_exp_div">
             <div class="rd_exp_inner_div">Global Sites</div>
             <div class="rd_exp_long_div">
-                <img id="rd_flag" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAe1BMVEX/////AAD/ERH/7u7/+/v/BAT/MTH/Fxf/trb/x8f/QUH/DAz/Wlr/9fX/n5//hYX/Zmb/k5P/JCT/8PD/wMD/3d3/IiL/0tL/5OT/mpr/i4v/cnL/rq7/19f/paX/f3//VFT/Skr/eXn/YmL/RET/LS3/Nzf/4eH/b2/qDBpoAAAEvklEQVR4nO2bi3KiMBSGTzABFVFBVLS1qFvbvv8TbgJSb4kl7e4muP83O9sZIPF85soBiQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgP8SZkvQ+/tB9QLrsCACEYhABCIQ8V3k/f0hRDhtt/K/zotw2gixsTTxU2TLmG2TeCjCacCEYAM7Ey9Fhkpk2HURTn0mmPzXtzLxT4QorEVCq0LeiXB6UR7K5MWmSbwR+Yw5yRqRLLk52QGRY7Sc0tpDmaTNsRb4IjL4KKqI+Sw6iUQzXh0sPgadESlYUFYqZeOhTMpKowxY0RkROVWxaPJOeSxO5USc0/skYm0mME9EOI1US8SZuCwpsli1zOjrceKNyETGK3SF1eFJh0Sq5fxWpT7YYpH3RIRorm2Oo8386/LeiPCFvmepBll0aEHktDOL7Fqsif6I7M0i+06JvJhF2uwefREhWprLL1sUdysi22HVfNtJZCoeJc3VK3PbuBYZsbyJbWhaEIfNxfmdJd6JCOdNOHLSDZZVcJymJpHp8YJlcJqIT1U4EynmvAmlypewRVHt32llElnV5wu10gzqclUF88KhiOwfItuu82MME5UvCWdUJ4EM1ImhWaiunRy/jXy9zUR+1tH+fYvwalDH4a900Bssqj3haxVPL9aXjqvS/LW6dCELpb/C6tLovHf9cxE5voWkPl6fbrbpoa5v1dmU4zb/VEjVcTHyHYiM6y2tOEUt2JPs+qdYL0VG6tzT2bm6qGBjpyLafa5ga0p4qRcpeUJrzanLPbGL6VfThdTXq59/1ex7bMSr45f3vw4G+0U3OYu3NA32UmdYdUfHIn3T9tCG69tGF11L/5nCaKc/06rSu/x8i/L68yaRiw+5FuHaOcgSNc9x5yLGzYgNAw9EEsP8ZEOcOBZRn56aB3ZbhEiJ3K7syTi0rkBLOE7InQhfLzT5xO8gK1msHW7jx4YUrz2yorHLrrU8/KkWOZxnVxwM9p4xp2iDYLue28EuP3z/42Eii+/J+V5LDpT4ZyaCxeOrKt2kg2hgzL23Qd26Xye43LQIp8KQjmuDYMPiJlHnKNPIiU+/OVBkoSm/TTg6TJmm31pRZKFUV5s7EU55ZG8iWJTfNofbFuE0f7M1Eextrs9ju8zGy/28NpVlRrBRovdw/qBnYjHk5YUTY0WORTg9B21NBAuezc/gXLcIb72JrDaJ5meJrkXUJjJrYyJY1rvj4V7k/FWz+yLp3We7EPljIkSX9yeifnwihLhIUaj3H+7hgUgTwnXo1wfb1eJMRE7A7MxARIfdtDwwlpXT3SH6PKyuuDP5eiEyOhqE26dVPlcPRqkIxEb9nc3z1dM2PPrcfY/OuQglb9Ig7W9mJzdOWXD+IH226afS5y3RlfdGhJ9eU/4Mnkfx7PqYVPZ91rqItg45iGf3r/BT5IZZHNsW8VOkiOOvX1nugsi7ELY/e/NTZNPqxdIOiCxZvY50XKR6Ntfm9T//RfqPIvJ886yzoyIvjOmzV10TWT2KSMosf4Xoq8iE3b/56IzI/lFEPpjdrym9FZkKMX4IkR37IvnTDRGicjh8hDHyLSACEYhAxCgCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8l/wGg1BWGDs3mxoAAAAASUVORK5CYII=" alt="">
+                <img id="rd_flag"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAe1BMVEX/////AAD/ERH/7u7/+/v/BAT/MTH/Fxf/trb/x8f/QUH/DAz/Wlr/9fX/n5//hYX/Zmb/k5P/JCT/8PD/wMD/3d3/IiL/0tL/5OT/mpr/i4v/cnL/rq7/19f/paX/f3//VFT/Skr/eXn/YmL/RET/LS3/Nzf/4eH/b2/qDBpoAAAEvklEQVR4nO2bi3KiMBSGTzABFVFBVLS1qFvbvv8TbgJSb4kl7e4muP83O9sZIPF85soBiQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgP8SZkvQ+/tB9QLrsCACEYhABCIQ8V3k/f0hRDhtt/K/zotw2gixsTTxU2TLmG2TeCjCacCEYAM7Ey9Fhkpk2HURTn0mmPzXtzLxT4QorEVCq0LeiXB6UR7K5MWmSbwR+Yw5yRqRLLk52QGRY7Sc0tpDmaTNsRb4IjL4KKqI+Sw6iUQzXh0sPgadESlYUFYqZeOhTMpKowxY0RkROVWxaPJOeSxO5USc0/skYm0mME9EOI1US8SZuCwpsli1zOjrceKNyETGK3SF1eFJh0Sq5fxWpT7YYpH3RIRorm2Oo8386/LeiPCFvmepBll0aEHktDOL7Fqsif6I7M0i+06JvJhF2uwefREhWprLL1sUdysi22HVfNtJZCoeJc3VK3PbuBYZsbyJbWhaEIfNxfmdJd6JCOdNOHLSDZZVcJymJpHp8YJlcJqIT1U4EynmvAmlypewRVHt32llElnV5wu10gzqclUF88KhiOwfItuu82MME5UvCWdUJ4EM1ImhWaiunRy/jXy9zUR+1tH+fYvwalDH4a900Bssqj3haxVPL9aXjqvS/LW6dCELpb/C6tLovHf9cxE5voWkPl6fbrbpoa5v1dmU4zb/VEjVcTHyHYiM6y2tOEUt2JPs+qdYL0VG6tzT2bm6qGBjpyLafa5ga0p4qRcpeUJrzanLPbGL6VfThdTXq59/1ex7bMSr45f3vw4G+0U3OYu3NA32UmdYdUfHIn3T9tCG69tGF11L/5nCaKc/06rSu/x8i/L68yaRiw+5FuHaOcgSNc9x5yLGzYgNAw9EEsP8ZEOcOBZRn56aB3ZbhEiJ3K7syTi0rkBLOE7InQhfLzT5xO8gK1msHW7jx4YUrz2yorHLrrU8/KkWOZxnVxwM9p4xp2iDYLue28EuP3z/42Eii+/J+V5LDpT4ZyaCxeOrKt2kg2hgzL23Qd26Xye43LQIp8KQjmuDYMPiJlHnKNPIiU+/OVBkoSm/TTg6TJmm31pRZKFUV5s7EU55ZG8iWJTfNofbFuE0f7M1Eextrs9ju8zGy/28NpVlRrBRovdw/qBnYjHk5YUTY0WORTg9B21NBAuezc/gXLcIb72JrDaJ5meJrkXUJjJrYyJY1rvj4V7k/FWz+yLp3We7EPljIkSX9yeifnwihLhIUaj3H+7hgUgTwnXo1wfb1eJMRE7A7MxARIfdtDwwlpXT3SH6PKyuuDP5eiEyOhqE26dVPlcPRqkIxEb9nc3z1dM2PPrcfY/OuQglb9Ig7W9mJzdOWXD+IH226afS5y3RlfdGhJ9eU/4Mnkfx7PqYVPZ91rqItg45iGf3r/BT5IZZHNsW8VOkiOOvX1nugsi7ELY/e/NTZNPqxdIOiCxZvY50XKR6Ntfm9T//RfqPIvJ886yzoyIvjOmzV10TWT2KSMosf4Xoq8iE3b/56IzI/lFEPpjdrym9FZkKMX4IkR37IvnTDRGicjh8hDHyLSACEYhAxCgCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8l/wGg1BWGDs3mxoAAAAASUVORK5CYII="
+                    alt="">
             </div>
         </div>
         <div class="rd_exp_div">
             <div class="rd_exp_inner_div">Partner Services</div>
-            <div class="rd_exp_long_div">              
-              Add a property</div>
+            <div class="rd_exp_long_div">
+                Add a property</div>
         </div>
     </div>
 
-    <p id="rd_last">© 2022 Travelscape LLC, An Expedia Group Company. All rights reserved. Travelocity, the Stars Design, and The Roaming Gnome Design are trademarks of Travelscape LLC. Use of this Web site constitutes acceptance of the Travelocity User Agreement and Privacy Policy. CST# 2083930-50</p>
-    <div id="rd_last_explore"> 
-        <img src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg" alt="">
+    <p id="rd_last">© 2022 Travelscape LLC, An Expedia Group Company. All rights reserved. Travelocity, the Stars
+        Design, and The Roaming Gnome Design are trademarks of Travelscape LLC. Use of this Web site constitutes
+        acceptance of the Travelocity User Agreement and Privacy Policy. CST# 2083930-50</p>
+    <div id="rd_last_explore">
+        <img src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg"
+            alt="">
     </div>
 </body>
 
