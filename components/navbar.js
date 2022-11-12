@@ -1,9 +1,9 @@
 
-const navbar = () =>{
+let navbar = () =>{
 
     return `<div id="leftnav">
     <div id="exlogo">
-    <a href="#"> <img src="./logo/Explore up (1).png" alt=""></a>
+    <a href="#"> <img src="../logo/Explore_up .png" alt=""></a>
     </div>
 
     <div class="dropdown">
@@ -38,5 +38,5 @@ const navbar = () =>{
 }
 
 
-export {navbar}
+export { navbar }
 

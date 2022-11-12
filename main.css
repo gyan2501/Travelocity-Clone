@@ -4,18 +4,18 @@
 
 #abjtop {
     display: flex;
-    border: 1px solid red;
+    border: 0px solid red;
     height: 50px;
 }
 
 #abjtop > div {
-    border: 1px solid red;
+    border: 0px solid red;
 }
 
 #abjtop2 {
     width: 100%;
     height: 500px;
-    border: 1px solid red;
+    border: 0px solid red;
     display: flex;
     background-image: url("https://headless.expediagroup.com/content/dam/marketing/headless/images/home-page/Content-page-image-hero-LG2.jpg");
     background-size: 100% 100%;
@@ -23,55 +23,74 @@
 
 } 
 
-#abjtop2>div {
-    border: 1px solid red;
+#abjtop2 > div {
+    border: 0px solid red;
     width: 100%;
     height: 500px;
 }
 #abjom{
-    background-color: whitesmoke;
+    background-color: snow;
     height: 70px;
     width: 100%;
-    border: 1px solid rgb(255, 255, 255);
+    border: 0px solid rgb(255, 255, 255);
     margin-top: 430px;
 }
 
 #abjtop2l{
-    border: 1px solid red;
+    border: 0px solid red;
 }
 
 #abjtop2l{
-    border: 1px solid red;
+    border: 0px solid red;
 }
 
+#abjtophead > p{
+    width: 80%;
+    text-align: left;
+}
+
+
 #abjtop2r > div{
-    border: 1px solid red;
+    border: 0px solid red;
     width: 100%;
 }
 #abjtop2r > div:nth-child(1){
-    border: 1px solid red;
+    border: 0px solid red;
     width: 100%;
-    height: 100px;
+    height: 80px;
 }
 #imeg{
     width: 100%;
 }
 #abjtop2r > div:nth-child(2){
-    border: 1px solid rgb(37, 29, 149);
+    border: 0px solid rgb(37, 29, 149);
     width: 100%;
     height: 100px;
 }
 
 #abjtop2r > div:nth-child(3){
-    border: 1px solid rgb(40, 170, 64);
+    border: 0px solid rgb(40, 170, 64);
     width: 100%;
     height: 250px;
 }
 
 #abjbox{
-    width: 80%;
-    height: 90%;
-    border: 1px solid green;
+    width: 90%;
+    height: 260px;
+    border: 0px solid green;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    border-radius: 10px;
+}
+
+#abjheaddd{
+    padding-top: 15px;
+
+}
+
+#abjheaddd > h2{
+    margin-left: 20px;
+    color: blue;
+    
 }
 
 
@@ -80,22 +99,27 @@
     height: 96%;
 }
 
+.abjclkbox{
+    width: 40px;
+    border: 1px solid blue;
+}
 
 
 #abjadmin > div {
-    border: 1px solid red;
+    border: 0px solid red;
     width: 100%;
     height: 96%;
 }
 
 #abjlogobox{
     display: flex;
+    height: 40px;
 }
 
 #abjlogobox > div{
     width: 40%;
-    height: 80px;
-    border: 1px solid green;
+    height: 30px;
+    border: 0px solid green;
 
 }
 
@@ -103,24 +127,32 @@
     width: 65%;
     margin: auto;
 }
+.abjpoop{
+    margin-left: 37%;
+    margin-bottom: -0px;
+}
 
+.abjpoo{
+    text-align: center;
+    margin-bottom: -5px;
+}
 
 /* BRING */
 
 
 #abjbringmain{
-    border: 1px solid rgb(152, 30, 71);
+    border: 0px solid rgb(152, 30, 71);
     width: 100%;
     height: 450px;
 }
 
 #abjbring{
-    border: 1px solid green;
+    border: 0px solid green;
     width: 100%;
 }
 
 #abjbring > div{
-    border: 1px solid red;
+    border: 0px solid red;
     width: 55%;   
     margin: auto;
 }
@@ -133,7 +165,7 @@
 }
 
 #abjbringpic > div{
-    border: 1px solid red;
+    border: 0px solid red;
     width: 80%;
     height: 96%;
 }
@@ -169,11 +201,11 @@
 #abjTravelocity{
     width: 100%;
     height: 300px;
-    border: 1px solid red;
+    border: 0px solid red;
 }
 
 #abjTravelocity > div{
-    border: 1px solid red;
+    border: 0px solid red;
     width: 80%;
     height: 30%;
     margin: auto;
@@ -190,7 +222,7 @@
 
 #Travelocitypiv > div {
     width: 15%;
-    border: 1px solid red;
+    border: 0px solid red;
     margin: auto;
     gap: 10px;
 }
@@ -209,8 +241,8 @@
 
 #abjExplore{
     width: 100%;
-    height: 600px;
-    border: 1px solid rgb(104, 130, 103);
+    height: 520px;
+    border: 0px solid rgb(104, 130, 103);
     margin-top: 25px;
 }
 
@@ -230,7 +262,7 @@
 #abjExplore > div{
     margin: auto;
     width: 80%;
-    border: 1px solid rgb(181, 78, 30);
+    border: 0px solid rgb(181, 78, 30);
 }
 
 #abjExplorepic{
@@ -245,13 +277,13 @@
 #abjExplorepic > div{
     margin: auto;
     width: 45%;
-    border: 1px solid rgb(22, 20, 136);
+    border: 0px solid rgb(22, 20, 136);
     justify-content: center;
 }
 
 
 #abjExplorepic > div > div{ 
-    border: 1px solid rgb(22, 20, 136);
+    border: 0px solid rgb(22, 20, 136);
     margin: auto;
 }
 
@@ -262,6 +294,10 @@
 
 }
 
+.abjhead{
+    text-align: center;
+}
+
 .abjexpimgbox > div > img{
     width: 85%;
 }
@@ -269,28 +305,107 @@
 
 #abjready {
     width: 100%;
-    height: 400px;
-    border: 1px solid rgb(22, 20, 136);    
+    height: 340px;
+    border: 0px solid rgb(22, 20, 136);    
+    background-color: rgb(224, 222, 222);
+    padding-top: 10px;
 
 }
 
 #abjready > div  {
     width: 30%;
-    height: 380px;
+    height: 300px;
     margin: auto;
-    border: 1px solid rgb(22, 20, 136); 
+    border: 0px solid rgb(22, 20, 136); 
 }
 
 #abjready > div > h2,p,button{
     text-align: center;
     justify-content: center;
+    margin-top: 30px;
+    color: black;
+}
+
+#abjready > div > button{
+    width: 150px;
+    height: 40px;
+    margin-left: 29%;
+    background-color:  #009;
+    color: azure;
+    border: 0px;
+    font-weight: 100px;
 }
 
 
 
+#abjfooter{
+    width: 100%;
+    height: 450px;
+    border: 0px solid red;
+    background-color:  #009;
+}
+
+#abjfooterdiv{
+    display: flex;
+    width: 65%;
+    display: flex;
+    background-color:  #009;
+    margin: 10px;
+    margin: auto;
+}
+
+#abjfooterdiv > div
+{
+    width: 30%;
+    height: 300px;
+    border: 0px solid rgb(194, 201, 194);
+}
+
+#abjsame{
+    width: 40px;
+    height: 30px;
+    border: 0px solid yellow;
+}
+
+.abjsame > p {
+    color: white;
+    text-align: left;
+}
 
 
+#abjfotread {
+    width:100%;
+    color: whitesmoke;
+    padding: 5px;
+}
 
+
+#abjfotimg > img{
+    width:70%;
+}
+
+#abjborder{
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    border: 0px solid grey;
+}
+
+#abjforworn{
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+#abjforworn > a{
+    color: whitesmoke;
+    border: none;
+}
+
+#abjforworn > p{
+    color: whitesmoke;
+    border: none;
+}
 
 /* admin */
 
@@ -298,19 +413,19 @@
     display: flex;
     width: 100%;
     height: 600%;
-    border: 1px solid rgb(22, 20, 136); 
+    border: 0px solid rgb(22, 20, 136); 
 
 }
 
 #abjmainbox > div:nth-child(1){
     width: 30%;
-    border: 1px solid rgb(7, 150, 52); 
+    border: 0px solid rgb(7, 150, 52); 
 
 }
 
 #abjmainbox > div:nth-child(70){
     width: 60%;
-    border: 1px solid rgb(7, 150, 52); 
+    border: 0px solid rgb(7, 150, 52); 
     overflow: scroll;
 
 }
@@ -344,4 +459,15 @@
 
 #image ~ input {
     width: 170px;
+}
+
+
+#abjadddata > input{
+    width: 130px;
+    height: 35px;
+}
+
+
+.abjclkbox:hover{
+    cursor: pointer;
 }

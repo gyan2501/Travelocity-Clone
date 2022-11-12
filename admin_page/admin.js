@@ -1,3 +1,13 @@
+import {navbar} from "../components/navbar.js";
+
+import { footer } from "../components/footer.js";
+
+let cont = document.getElementById("gpnavbar")
+cont.innerHTML = navbar();
+
+let conttt = document.getElementById("gpfooter")
+conttt.innerHTML = footer();
+
 
 let url = "http://localhost:3000/api/admindata";
 
