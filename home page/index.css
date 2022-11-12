@@ -1,3 +1,372 @@
-#sttrip{
+*{
+    background-color: #f0f3f5;
+}
+#main_div{
+    width: 80%;
+    margin: auto;
+    /* border: 2px solid red; */
+    margin-top: 190px;
+}
 
+#st_div{
+    width: 98%;
+    margin: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 20px;
+    
+}
+.sttrip{
+    /* border: 2px solid rgb(10, 9, 9); */
+    border-radius: 10px;
+    background-color: white;
+    
+}
+.sttrip img{
+    width: 100%;
+    position: relative;
+    margin: auto;
+    border-radius: 10px 10px 0 0;
+    
+}
+.sttrip h2{
+    position: absolute;
+    /* top: 27%; */
+    color: white;
+    background: none;
+    margin-top: -34px;
+    font-size: 22px;
+    margin-left: 10px;
+    text-shadow: 2px 2px 5px rgb(15, 11, 11);
+    
+    
+}
+.sttrip p{
+    margin: auto;
+    align-items: center;
+    padding: 10px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.629);
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+}
+#nd_div{
+    display: flex;
+    width: 98%;
+    gap: 20px;
+    margin: auto;
+    margin-top: 30px;
+}
+.nd_trip{
+    width: 100%;
+
+}
+.nd_trip img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    position: relative;
+    border-radius: 10px;
+}
+.nd_trip div{
+    position: absolute;
+    margin-top: -210px;
+    width: 38%;
+    height: 28%;
+  background: none;
+  margin-left: 20px;
+  
+}
+.nd_trip h1{
+    background: none;
+    color: white;
+    text-shadow: 1px 1px 5px rgb(15, 11, 11);
+    font-size: 26px;
+}
+.nd_trip p{
+   background: none;
+   color: white;
+   text-shadow: 1px 1px 5px rgb(15, 11, 11);
+   width: 40%;
+   font-size: 15px;
+
+}
+.nd_trip button{
+   /* background: none; */
+   color: rgb(48, 48, 213);
+   /* text-shadow: 2px 2px 5px rgb(15, 11, 11); */
+   border-radius: 5px;
+   border: none;
+   font-size: 16px;
+   padding: 8px 19px;
+
+}
+#rd_trip{
+    display: flex;
+    margin: auto;
+    width: 98%;
+    gap: 24px;
+}
+#rd_div{
+    width: 100%;
+    margin: auto;
+}
+#rd_trip div{
+    width: 100%;
+}
+#rd_trip img{
+    width: 100%;
+    position: relative;
+    border-radius: 4%;
+}
+#rd_trip h1{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-left: 1.4%;
+    position: absolute;
+    margin-top: -5%;
+    background: none;
+    width: 15%;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 5px rgb(15, 11, 11);
+    font-size: 28px;
+    font-weight: bold;
+   
+    
+}
+#rd_div>h1{
+    margin-bottom: -1px;
+    margin-left: 10px;
+}
+#th_div{
+    width: 98%;
+    margin: auto;
+
+}
+#vaction>img{
+  object-fit: cover;
+  width: 85%;
+  height: 220px;
+  border-radius: 10px;
+  position: relative;
+ 
+}
+#vaction{
+    display: flex;
+    gap: 10px;
+    margin-top: -8px;
+}
+#in{
+    position: absolute;
+    margin-top: -8%;
+    background: none;
+    color: white;
+    margin-left: 12px;
+}
+#in h3{
+    background: none;
+}
+#in p{
+    background: none;
+}
+
+#y{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+#change{
+    display: flex;
+    width: 98%;
+    margin: auto;
+    /* border: 2px solid red; */
+    gap: 10px;
+}
+#change div{
+    border: 1px solid black;
+    margin: auto;
+    width: 100%;
+    border-radius: 8px;
+}
+#change div h1{
+    font-size: 21px;
+    margin-left: 10px;
+    font-weight:bolder ;
+
+}
+#change div p{
+    margin-left:10px ;
+    margin-top: -5px;
+}
+#six_div>h1{
+    margin-left: 13px;
+}
+#sev_div{
+    display: flex;
+    margin: auto;
+    width: 98%;
+    border: 1px solid rgba(9, 8, 8, 0.529);
+    height: 330px;
+    gap: 5px;
+    background: white;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+#sev_div>div{
+
+}
+#mob_img img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+#get{
+    display: flex;
+}
+#mob_img{
+    width: 30%;
+}
+#detl{
+    width: 60%;
+    background: white;
+    margin: 15px 8px;
+}
+#detl ul, li{
+    color: rgba(15, 15, 15, 0.648);
+    background: white;
+}
+#detl h1{
+    background: white;
+}
+#detl h2{
+    background: white;
+}
+#detl p{
+    background: white;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.667);
+}
+#get{
+    background: white;
+}
+#get input{
+    width: 30%;
+    height: 45px;
+    border-radius: 10px;
+    margin: auto;
+    background: white;
+
+    border: 1px solid rgba(0, 0, 0, 0.571);
+}
+#get button{
+    width: 32%;
+    background: #0d5ab9 ;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+#qr{
+   width: 15%;
+   /* border: 2px solid red; */
+   margin: auto;
+   background: white;
+}
+#qr img{
+    width: 90%;
+    margin: auto;
+}
+#qr h3{
+    background: white;
+    margin-top: -19px;
+    margin: auto;
+    text-align: center;
+}
+#i{
+    margin-left: 15px;
+}
+#f{
+    width: 98%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,auto);
+    gap: 20px;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+}
+#f>div{
+    margin-bottom: -8px;
+}
+.m{
+    width: 2%;
+    height: 8px;
+    margin-top: 11px;
+}
+.ee {
+    height: 40px;
+   
+    
+    
+}
+.ee h1{
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0 10px; */
+ 
+  font-size: 19px;
+  margin: auto;
+  align-items: center;
+  margin-top: 8px;
+
+}
+.yy div,.yy{
+    background: white;
+    padding: 0 6px;
+    border-radius: 10px;
+    /* padding: 2px; */
+    width: 98%;
+    margin: auto;
+    justify-content: center;
+    
+   
+}
+.ww, .www,.wwww, .wwwww, .aa, .c, .we{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(6,auto);
+   background: white;
+   display: none;
+   width: 100%;
+   
+}
+.ww a, .aa a, .www a, .wwwww a, .wwww a , .c a, .we a{
+    background: white;
+    text-decoration: none;
+
+}
+.qq{
+    display: none;
+}
+#sd{
+    margin-top: 20px;
+    width: 97%;
+}
+#sd img{
+    width: 1%;
+    height: 8px;
+}
+.yyy{
+    display: grid;
+}
+
+.nb{
+    display: flex;
 }
