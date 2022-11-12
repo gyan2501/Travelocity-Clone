@@ -262,6 +262,13 @@ let data = [
 
     }];
 
+
+
+import { navbar } from "./components/navbar.js"
+
+let nav = document.getElementById("navbar")
+nav.innerHTML = navbar()
+
 let place = localStorage.getItem("place")
 let ls_span = document.getElementById("ls_span")
 ls_span.innerText = place
