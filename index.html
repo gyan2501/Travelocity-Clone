@@ -1,16 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/d1d18244ac.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Explore up</title>
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/top_search.css">
 </head>
 <body>
-    <div id="navabar">
+    <div id="gpnavbar"></div>
+      
+    <div id="aj_top">
+        <div id="aj_top_white">
+            <div id="aj_btn_div">
+                <div id="bbttn" >
+                    <button id="stays">Stays</button>
+                    <button id="flight">Flights</button>
+                    <button id="cars">Cars</button>
+                    <buttonc id="package">Packages</button>
+                    <button id="ttdo">Things to do</button>
+                    <button  id="cruise">Cruises</button>
+                </div>
+            </div>
+            <div id="aj_search_div">
+                <button id="aj_go_btn"><img src="https://i.postimg.cc/wvL4RBKP/marker.png" alt="">
+                    Going to</button>
+                <button class="aj_date">Check-in <input id="aj_d1" type="date"></button>
+                <button class="aj_date">Check-out <input id="aj_d2" type="date"> </button>
+                <button id="aj_travel">
+                    Travelers <br><span id="aj_t_span1">1</span> <label for="aj_t_span1">room</label>
+                    <span id="aj_t_span2">2</span> <label for="aj_t_span2">traveler</label>
 
+
+                </button>
+
+            </div>
+            <!-- --------------------------popup div start-------------------- -->
+            <div id="aj_go_btn_div">
+                <div id="aj_div1">
+                    <input id="aj_go_inp" type="text" placeholder="Where are you going?">
+                </div>
+                <div id="aj_div2"></div>
+
+            </div>
+            <!-- --------------------------popup div end-------------------- -->
+            <!-- --------------------------popup div travel start-------------------- -->
+            <div id="aj_go_btn_div1">
+                <h3>Travelers</h3>
+                <p>Room 1</p>
+                <div id="div1">
+                    <p>Adults</p>
+                    <div><button id="aj_adult_+">+</button>
+                        <span id="aj_adult_span">2</span>
+                        <button id="aj_adult_-">-</button>
+                    </div>
+
+                </div>
+                <div id="div2">
+                    <div>
+                        <p>Children</p>
+                        <p>Ages 0 to 17</p>
+                    </div>
+
+                    <div><button id="aj_child_+">+</button>
+                        <span id="aj_child_span">0</span>
+                        <button id="aj_child_-">-</button>
+                    </div>
+                </div>
+                <button id="aj_add_btn">Add another room</button>
+                <button id="aj_done_btn">Done</button>
+
+
+            </div>
+            <!-- --------------------------popup div travel end-------------------- -->
+
+            <div id="aj_checkbox"><input id="aj_c-1" type="checkbox"><label class="aj_l1" for="aj_c-1">Add a
+                    flight</label>
+                <input id="aj_c-2" type="checkbox"><label class="aj_l1" for="aj_c-2">Add a Car</label>
+            </div>
+            <div id="aj_search"><button id="aj_search_btn">Search</button></div>
+
+        </div>
     </div>
+
     <div id="main_div">
         <div id="st_div">
             <div class="sttrip">
@@ -295,7 +371,10 @@
     </div>
   </div>
 </div>
-
+<div id="gpfooter"></div>
+<script type="module" src="./src/index.js"></script>
 </body>
 </html>
-<script src="index.js"></script>
+
+
+

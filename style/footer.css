@@ -1,6 +1,6 @@
 
 
-div a{
+div #gfaa{
     text-decoration: none;
     color: #0d5ab9;
 }
@@ -9,9 +9,10 @@ div a:hover{
     text-decoration: underline;
 }
 #gpfooter{
-    width: 80%;
+    padding-top: 30px;
+    width: 95%;
     margin: auto;
-   
+   border: 0px solid red;
     
 }
 #down{
@@ -26,7 +27,7 @@ font-size: 17px;
     justify-content: space-between;
     font-size: 15px;
     line-height: 16px;
-    height: 350px;
+    height: auto;
 
 }
 #down{
@@ -40,4 +41,14 @@ font-size: 17px;
 }
 #down p{
     color: #505c66;
+}
+
+@media all and (min-width:390px) and  (max-width:844px){
+    
+    
+    #up{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        height: auto;
+    }
 }

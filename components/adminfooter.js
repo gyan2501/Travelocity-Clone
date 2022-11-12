@@ -1,5 +1,5 @@
 
-const adminfooter =()=>{
+function adminfooter () {
     return `<div id="admin_footer">
     <h2>Ready to get started?</h2>
     <p>Join us today and unlock access to high-value guests.</p>

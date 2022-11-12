@@ -21,3 +21,7 @@
     rd_last_explore.addEventListener("click",()=>{
         window.location.href = "https://www.expediagroup.com/home/default.aspx";
     })
+
+    document.getElementById("rd_logo").addEventListener("click",function(){
+        window.location.href="./index.html"
+    })

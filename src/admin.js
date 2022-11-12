@@ -120,3 +120,7 @@ let updateUser = async (id) => {
 
     main();
 }
+
+document.getElementById("abjback").addEventListener("click",function(){
+    window.location.href="./index.html"
+})

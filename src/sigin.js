@@ -52,7 +52,10 @@ form.addEventListener('submit', function (e) {
 
                 document.getElementById("se").value ="";
                 document.getElementById("sp").value="";
+                window.location.href="index.html"
                 return ;
+               
+       
             }
 
     

@@ -48,12 +48,13 @@ signupform.addEventListener('submit', function (e) {
         localStorage.setItem("password",JSON.stringify(passwordArray))
 
         alert(emailid + "  Thanks for registration. \nTry to login Now");
-        window.location.href="signin.html"
+        
        
         
     }
     else{
         alert(emailid + " is already register.");
+        window.location.href="sigin.html"
         return ;
     }
 

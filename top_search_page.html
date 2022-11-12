@@ -2,19 +2,39 @@
 <html lang="en">
 
 <head>
+    <script src="https://kit.fontawesome.com/d1d18244ac.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Explore up</title>
     <!-- font awesome icon library -->
-    <link rel="stylesheet" href="/styles/navbar.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="top_search_page.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    
+   
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/top_search_page.css">
 </head>
 
-
 <body>
-    <div id="navbar"></div>
+    <div id="search_navbar">
+    </div>
+
+    <div id="aj">
+        <div id="aj_search_div">
+            <button id="aj_go_btn"><img src="https://i.postimg.cc/wvL4RBKP/marker.png" alt="">
+                Going to :-<span id="ls_span"></span></button>
+            <button class="aj_date">Check-in <span id="aj_in"></span></button>
+            <button class="aj_date">Check-out <span id="aj_out"></span> </button>
+            <button id="aj_travel">
+
+                <br><span id="aj_t_span1">1</span> <label for="aj_t_span1">room</label>
+                <span id="aj_t_span2">2</span> <label for="aj_t_span2">traveler</label>
+
+
+            </button>
+
+        </div>
+    </div>
 
     <div id="main">
         <div>
@@ -31,7 +51,7 @@
             <h4 style="font-weight:bold">Popular filters</h4>
             <input style="height: 22px
                ; width: 19px;" type="checkbox" name="" class="checkbox">
-            <label style="" for="">Hot tub</label>
+            <label for="">Hot tub</label>
             <br>
             <input style="height: 22px
                ; width: 19px; margin-top:10px;" type="checkbox" name="" class="checkbox">
@@ -84,7 +104,7 @@
                 <h3>your budget</h3>
 
                 <input style="height: 22px
-           ; width: 19px;border:1px solid red;" type="checkbox" name="" class="checkbox">
+           ; width: 19px;border:0px solid red;" type="checkbox" name="" class="checkbox">
                 <label style="" for="">Less than $75</label>
                 <br>
                 <input style="height: 22px
@@ -113,7 +133,7 @@
             <div>
                 <h3>Guest rating</h3>
                 <input style="height: 22px
-           ; width: 19px;border:1px solid red;" type="radio" name="" class="radio">
+           ; width: 19px;border:0px solid red;" type="radio" name="" class="radio">
                 <label style="" for="">Any</label>
                 <br>
                 <input style="height: 22px
@@ -263,67 +283,42 @@
             </div>
 
         </div>
-        <!-- second div asla -->
+
         <div>
-            <!-- lele kar diya second div wala content -->
+            <div id="sortingDiv">
+                <div>
+                    <a href="">See how we pick our recommended properties <i class="fa fa-info-circle"
+                            aria-hidden="true"></i></a>
+                </div>
+                <div id="rightSide">
+                    <div id="">
+                        <select name="" id="aj_sort">
+                            <option value="">recommended</option>
+                            <option value="pricelth"> Price Low To High</option>
+                            <option value="pricehtl">Price High To Low</option>
+                            
+                            <option value="ratinglth">Rating Low To High</option>
+                            <option value="ratinghtl">Rating High To Low</option>
+                        </select>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
 
             <div id="dataAppender">
-                <div id="sortingDiv">
-                    <div>
-                        <a href="">See how we pick our recommended properties <i class="fa fa-info-circle"
-                                aria-hidden="true"></i></a>
-                    </div>
-                    <div id="rightSide">
-                        <div id="">
-                            <select name="" id="">
-                                <option value="">Sort by</option>
-                                <option value="">recommended</option>
-                                <option value=""> price</option>
-                                <option value="">Distance from airport</option>
-                                <option value="">Guest rating + our pick</option>
-                                <option value="">Price+our pick</option>
-                                <option value="">star rating</option>
-                            </select>
-                        </div>
 
-
-
-                    </div>
-                </div>
             </div>
 
         </div>
     </div>
 
-
-
-
+    <div id="gpfooter"></div>
 
 </body>
 
 </html>
-
-
-
-
-
-<script type="module">
-
-
-
-
-
-
-
-
-    import navbar from "./components/navbar.js";
-    let n = document.getElementById("navbar");
-    console.log(navbar)
-    n.innerHTML = navbar();
-
-</script>
-
-<script src="top_search_page.js">
-
-
-</script>
+<script type="module" src="./src/top_search_page.js"></script>
