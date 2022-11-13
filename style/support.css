@@ -1,3 +1,6 @@
+body{
+    margin: 0px;
+}
 #rd_nav{
     height: 60px;
     width: 100%;
@@ -66,10 +69,34 @@
     color:white;
     margin-left: 10px;
 }
+#account{
+    color:white;
+    margin-left: 10px;
+}
+#support{
+    color:white;
+    margin-left: 10px;
+}
 .rd_list:hover{
     background-color: #004e93;
     
 }
+
+/* #rd_chat{
+    width: 350px;
+    height: 220px;
+    height: 500px;
+    border: 1px solid blue;
+    position:absolute;
+    background-color: white;
+    margin-top: 250px;
+    left: 70%;
+    background-color: white;
+    border-radius: 2%;
+    display: none;
+} */
+
+
 
 
 
@@ -131,6 +158,9 @@ a:hover:after {
 
 
 
+
+
+
 #rd_customer{
     width: 100%;
     height: 150px;
@@ -178,7 +208,7 @@ a:hover:after {
     height: 60px;
     margin-left: 111px;
     margin-top: 30px;
-    border: 1px solid blue;
+    border: 0px solid blue;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;
@@ -186,7 +216,7 @@ a:hover:after {
 }
 
 .rd_cancel{
-  border: 1px solid red;
+  border: 0px solid red;
   border-radius: 5px;
   background-color: white;
   display: flex;
@@ -208,10 +238,15 @@ a:hover:after {
     height: 90%;
 }
 
+
+
+
+
 #rd_gray_div{
     width: 100%;
     height: 700px;
     background-color: #ededed;
+    border: 0px solid red;
 }
 #rd_yellow_div{
     position: absolute;
@@ -252,11 +287,12 @@ a:hover:after {
     font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
     margin-left: 30%;
     color: #616161;
+    border: 0px solid red;
 }
 #rd_flight{
     width: 220px;
     height: 330px;
-    border: 1px solid blue;
+    border: 0px solid blue;
     position: absolute;
     margin-left: 111px;
     margin-top: 15%;
@@ -265,15 +301,126 @@ a:hover:after {
     grid-auto-rows: auto;
     gap: 2px ;
 }
+
+.flight_para{
+    font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    margin-left: 20px;
+    color: blue;
+    font-size: 16px;
+}
+#rd_flight1{
+    background-color: white;
+    display: flex;
+    height: 41px;
+}
+#dtl_flight1{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: none;
+}
+
+#rd_flight2{
+    background-color: white;
+    display: flex;
+    height: 41px;
+}
+#dtl_flight2{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: none;
+}
+#rd_flight3{
+    background-color: white;
+    display: flex;
+    height: 41px;
+}
+#dtl_flight3{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: none;
+}
+#rd_flight4{
+    background-color: white;
+    display: flex;
+    height: 41px;
+}
+#dtl_flight4{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: none;
+}
+#rd_flight5{
+    background-color: white;
+    display: flex;
+    height: 41px;
+}
+#dtl_flight5{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: none;
+}
+#rd_flight6{
+    background-color: white;
+    display: flex;
+    height: 41px;
+}
+#dtl_flight6{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: none;
+}
+
+
+
+
+
+
+
+
 .rd_flight{
     background-color: white;
     display: flex;
+    height: 41px;
 }
 .rd_flight_logo{
     width: 20%;
     height: 100%;
-    border: 1px solid blue;
+    border: 0px solid blue;
 }
+.fa-jet-fighter{
+    color: black;
+    height: -40px;
+}
+.fa-hotel{
+    color: black;
+    height: -40px;
+}
+.fa-sharp{
+    color: black;
+    height: -40px;
+}
+.fa-car{
+    color: black;
+    height: -40px;
+}
+.fa-ship{
+    color: black;
+    height: -40px;
+}
+.fa-dice-three{
+    color: black;
+    height: -40px;
+}
+
+
+
+
 .rd_para{
     font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
     margin-top: 10px;
@@ -286,7 +433,7 @@ a:hover:after {
 #rd_refund_div{
     width: 58%;
     height: 430px;
-    border: 1px solid blue;
+    border: 0px solid blue;
     position: absolute;
     margin-top: 15%;
     margin-left: 30%;
@@ -294,20 +441,130 @@ a:hover:after {
     grid-template-columns: repeat(1,1fr);
     grid-auto-rows: auto;
     gap: 2px ;
+   
+}
+
+#rd_refund_div1{
+    font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    padding-top: 9px;
+    color:#004e93;
+    font-weight: 700;
+    background-color: white;
+    border: 0px solid red;
+    padding-left: 10px;
 }
 .rd_refund_div{
+    font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    padding-top: 9px;
+    color:#004e93;
+    font-weight: 700;
     background-color: white;
 }
+#rrrr{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    overflow: scroll;
+    display: none;
+    
+}
+.rd_change{
+    width: 95%;
+    font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    line-height: 20px;
+    margin-left: 20px;
+}
+.rd_before{
+    margin-left: 20px;
+    font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+
+}
+.rd_full{
+    margin-left: 20px;
+    font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+
+}
+.rd_in{
+    margin-left: 40px;
+    font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    
+}
+
+#rd_refund_div2{
+    font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    padding-top: 9px;
+    color:#004e93;
+    font-weight: 700;
+    background-color: white;
+    padding-left: 10px;
+}
+#mmmm{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    overflow: scroll;
+    display: none;
+}
+hr{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+ #rd_refund_div3{
+    font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    padding-top: 9px;
+    color:#004e93;
+    font-weight: 700;
+    background-color: white;
+    padding-left: 10px;
+}
+#xxxx{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    overflow: scroll;
+    display: none;
+}
+#rd_refund_div4{
+    font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    padding-top: 9px;
+    color:#004e93;
+    font-weight: 700;
+    background-color: white;
+    padding-left: 10px;
+}
+#zzzz{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    overflow: scroll;
+    display: none;
+    
+}
+
+.rd_refund_div{
+    padding-left: 10px;
+}
+
+
+
+
+
 
 
 #rd_add_btn{
-    margin-top: 50px;
+    width: 200px;
+    margin-top: 30px;
     margin-left: 45%;
     color:#004074;
     padding: 10px;
+    font-size: 17px;
     font-weight:bolder;
     border: 1px solid #004074;
     border-radius: 5px;
+    background-color: white;
 }
 #rd_add_btn:hover{
     color:#0087f5;
@@ -321,6 +578,106 @@ a:hover:after {
     margin: auto;
     margin-top: 30px;
 }
+#rd_logo_image{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border: 0px solid blue;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#travel_image{
+    width: 100%;
+    height: 100%;
+    border-radius: 20%;
+}
+#travel_app{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 90px;
+    font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    color: rgb(80, 79, 79);
+}
+#number{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 90px;
+    padding: 10px;
+    width: 24%;
+}
+#rd_send{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 490px;
+    padding: 10px 10px 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #90c900;
+    color: #1f1f1f;
+    border: 0px solid black;
+    border-radius: 5px;
+    
+}
+#rd_access{
+    width: 60%;
+    height: 60px;
+    border: 0px solid blue;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: auto;
+   
+   
+}
+.rd_access_div{
+    border: 0px solid black;
+    display: flex;
+    
+}
+.rd_right{
+    width: 16%;
+    height: 80%;
+    border: 0px solid red;
+    background-color: #1b2e4a;
+    border-radius: 50%;
+    padding-left: 10px;
+    
+}
+.fa-check{
+    color: white;
+    margin-left: 7px;
+}
+.rd_right_para{
+    font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    padding: 10px;
+    font-weight: bolder;
+}
+#rd_by{
+    font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    position: absolute;
+    margin-top: 220px;
+    font-size: 13px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+#rd_barcode{
+    width: 150px;
+    height: 150px;
+    border: 0px solid blue;
+    position: absolute;
+    margin-top: 47px;
+    margin-left: 67%;
+}
+#scaner{
+    width: 100%;
+    height: 100%;
+}
+
+
+
 
 #rd_explore{
     margin-bottom: 2px;
@@ -328,6 +685,9 @@ a:hover:after {
     font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
     font-size: 13px;
     color: #616161;
+    margin-top: 8px;
+    background-color: white;
+    border: none;
     margin-top: 8px;
 }
 #rd_last{

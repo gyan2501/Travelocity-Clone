@@ -4,18 +4,18 @@
 
 #abjtop {
     display: flex;
-    border: 1px solid red;
+    border: 0px solid red;
     height: 50px;
 }
 
 #abjtop > div {
-    border: 1px solid red;
+    border: 0px solid red;
 }
 
 #abjtop2 {
     width: 100%;
     height: 500px;
-    border: 1px solid red;
+    border: 0px solid red;
     display: flex;
     background-image: url("https://headless.expediagroup.com/content/dam/marketing/headless/images/home-page/Content-page-image-hero-LG2.jpg");
     background-size: 100% 100%;
@@ -24,7 +24,7 @@
 } 
 
 #abjtop2>div {
-    border: 1px solid red;
+    border: 0px solid red;
     width: 100%;
     height: 500px;
 }
@@ -37,33 +37,35 @@
 }
 
 #abjtop2l{
-    border: 1px solid red;
+    border: 0px solid red;
 }
 
 #abjtop2l{
-    border: 1px solid red;
+    border: 0px solid red;
 }
 
 #abjtop2r > div{
-    border: 1px solid red;
+    border: 0px solid red;
     width: 100%;
 }
 #abjtop2r > div:nth-child(1){
-    border: 1px solid red;
+    border: 0px solid red;
     width: 100%;
     height: 100px;
 }
 #imeg{
     width: 100%;
+    border: 1px solid red;
 }
 #abjtop2r > div:nth-child(2){
-    border: 1px solid rgb(37, 29, 149);
+    border: 0
+    px solid rgb(37, 29, 149);
     width: 100%;
     height: 100px;
 }
 
 #abjtop2r > div:nth-child(3){
-    border: 1px solid rgb(40, 170, 64);
+    border: 0px solid rgb(40, 170, 64);
     width: 100%;
     height: 250px;
 }
@@ -71,21 +73,28 @@
 #abjbox{
     width: 80%;
     height: 90%;
-    border: 1px solid green;
+    border: 0px solid green;
 }
 
 
 #abjadmin{
     display: flex;
     height: 96%;
+    border: 0px solid green;
+    
 }
 
 
 
 #abjadmin > div {
-    border: 1px solid red;
+    border: 1px solid rgb(76, 0, 255);
     width: 100%;
     height: 96%;
+    background-color: white;
+    margin-right: 8px;
+    border-radius: 12px;
+    text-align: center;
+    padding: 10px;
 }
 
 #abjlogobox{
@@ -93,15 +102,18 @@
 }
 
 #abjlogobox > div{
-    width: 40%;
-    height: 80px;
-    border: 1px solid green;
+    width: 35%;
+    height: 110px;
+    border: 0px solid green;
+    margin-bottom: 15px;
 
 }
 
 #abjlogobox > div > img{
-    width: 65%;
-    margin: auto;
+    width: 100%;
+    height: 100%;
+   border-radius: 15px;
+
 }
 
 
@@ -109,18 +121,18 @@
 
 
 #abjbringmain{
-    border: 1px solid rgb(152, 30, 71);
+    border: 0px solid rgb(152, 30, 71);
     width: 100%;
     height: 450px;
 }
 
 #abjbring{
-    border: 1px solid green;
+    border: 0px solid green;
     width: 100%;
 }
 
 #abjbring > div{
-    border: 1px solid red;
+    border: 0px solid red;
     width: 55%;   
     margin: auto;
 }
@@ -133,7 +145,7 @@
 }
 
 #abjbringpic > div{
-    border: 1px solid red;
+    border: 0px solid red;
     width: 80%;
     height: 96%;
 }
@@ -169,11 +181,11 @@
 #abjTravelocity{
     width: 100%;
     height: 300px;
-    border: 1px solid red;
+    border: 0px solid red;
 }
 
 #abjTravelocity > div{
-    border: 1px solid red;
+    border: 0px solid red;
     width: 80%;
     height: 30%;
     margin: auto;
@@ -190,7 +202,7 @@
 
 #Travelocitypiv > div {
     width: 15%;
-    border: 1px solid red;
+    border: 0px solid red;
     margin: auto;
     gap: 10px;
 }
@@ -210,7 +222,7 @@
 #abjExplore{
     width: 100%;
     height: 600px;
-    border: 1px solid rgb(104, 130, 103);
+    border: 0px solid rgb(104, 130, 103);
     margin-top: 25px;
 }
 
@@ -230,7 +242,7 @@
 #abjExplore > div{
     margin: auto;
     width: 80%;
-    border: 1px solid rgb(181, 78, 30);
+    border: 0px solid rgb(181, 78, 30);
 }
 
 #abjExplorepic{
@@ -245,13 +257,13 @@
 #abjExplorepic > div{
     margin: auto;
     width: 45%;
-    border: 1px solid rgb(22, 20, 136);
+    border: 0px solid rgb(22, 20, 136);
     justify-content: center;
 }
 
 
 #abjExplorepic > div > div{ 
-    border: 1px solid rgb(22, 20, 136);
+    border: 0px solid rgb(22, 20, 136);
     margin: auto;
 }
 
@@ -270,7 +282,7 @@
 #abjready {
     width: 100%;
     height: 400px;
-    border: 1px solid rgb(22, 20, 136);    
+    border: 0px solid rgb(22, 20, 136);    
 
 }
 
@@ -298,19 +310,19 @@
     display: flex;
     width: 100%;
     height: 600%;
-    border: 1px solid rgb(22, 20, 136); 
+    border: 0px solid rgb(22, 20, 136); 
 
 }
 
 #abjmainbox > div:nth-child(1){
     width: 30%;
-    border: 1px solid rgb(7, 150, 52); 
+    border: 0px solid rgb(7, 150, 52); 
 
 }
 
 #abjmainbox > div:nth-child(70){
     width: 60%;
-    border: 1px solid rgb(7, 150, 52); 
+    border: 0px solid rgb(7, 150, 52); 
     overflow: scroll;
 
 }
@@ -322,7 +334,7 @@
 .abjcard{
     width: 80%;
     height: 200px;
-    border: 2px dashed black;
+    border: 1px dashed black;
     display: flex;
 }
 
@@ -334,14 +346,49 @@
 
 #abjadddata{
     margin-left: 15px;
-    border: 2px solid black;
-    padding: 20%;
+    border: 0px solid black;
+    text-align: center;
+    
 }
 
 #abjform{
-    border: 2px solid black;
+    border: 0px solid black;
+
 }
 
 #image ~ input {
-    width: 170px;
+    width: 190px;
+}
+input{
+    font-size: 18px;
+    padding: 8px;
+    margin-bottom: -20px;
+}
+#add_hotel{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+    border: 0px solid red;
+    text-decoration: underline;
+}
+
+#bar{
+    display: flex;
+    border-bottom: 1px solid rgb(135, 135, 135);
+    justify-content: space-around;
+}
+
+#hm{
+    margin-left: -300px;
+    margin-top: 15px;
+    width: 200px;
+    font-size: 25px;
+   height: 50px;
+   background-color: #0a438b;
+   color: white;
+   border: none;
+   border-radius: 8px;
+}
+
+#hm:hover{
+    cursor: pointer;
 }

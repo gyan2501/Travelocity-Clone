@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Admin panel</title>
     <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/navbar.css">
+    
 </head>
 <body>
-    <div id="navbar"></div>
+    <div id="bar">
+       <div><a href="./index.html"><button id="hm">Home</button></a></div>
+       <div><h1>Admin Panel</h1></div>
+        
+    </div>
     <div id="abjmainbox">
 
     <div id="abjform">
-    <form action="" id=abjadddata>
+        
+    <form action="" id="abjadddata">
+        <h1 id="add_hotel">Add Hotel</h1>
         <input type="text" id="name" placeholder="Hotel Name"><br><br> <br><br>
         <input type="text" id="place" placeholder="place Name"><br> <br><br><br>
         <input type="text" id="description" placeholder="Decscription "><br><br> <br><br>
@@ -25,7 +33,7 @@
     </div>
 <div id="abjcontainer"></div>
 </div>
-    <div id="footer"></div>
+    
 </body>
-<script src="./admin.js"></script>
+<script type="module" src="./src/admin.js"></script>
 </html>
