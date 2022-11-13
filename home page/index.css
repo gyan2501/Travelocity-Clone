@@ -483,3 +483,9 @@
 #sev_div{
     height: auto;
 }
+#change div, #change h1, #change p{
+    background: white;   
+}
+*{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
