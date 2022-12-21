@@ -3,7 +3,7 @@
 Website :- https://www.travelocity.com/
 
 Project Name:- EXPLORE UP
-
+Deployed Link:- https://admirable-arithmetic-e1de52.netlify.app/
 Team Members :-
 1. fp06_123 - Abhishek Jha
 2. fw19_1029 - Rakesh Das
