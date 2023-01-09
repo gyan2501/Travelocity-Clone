@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSBT</title>
+    <style>
+        #container{
+            text-align: center;
+        }
+        #parent{
+            width: 80%;
+            height: 80%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            margin: auto;
+        }
+        
+        .child{
+            width: 20%;
+            height: 100%;
+            border: 2px solid black;
+            padding: 10px;
+            margin: 25px;
+            text-align: center;
+            color: #000;
+        }
+        .image{
+            width: 70%;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Products Display Board</h1>
+        <button onclick="getData()">Get Data</button>
+        <div id="parent"></div>
+    </div>
+</body>
+</html>
+<script>
+    const getData=async()=>{
+        let res=await fetch("https://fakestoreapi.com/products/");
+        let data=await res.json();
+        let parent=document.getElementById("parent");
+        data.map((item)=>{
+            let child=document.createElement("div");
+            child.setAttribute("class","child");
+            let image=document.createElement("img");
+            image.setAttribute("class","image");
+            image.src=item.image;
+            child.appendChild(image);
+            let name=document.createElement("h2");
+            name.innerHTML=`Product Name: ${item.title}`;
+            child.appendChild(name);
+            let price=document.createElement("h3");
+            price.innerHTML=`Product Name: $ ${item.price}`;
+            child.appendChild(price);
+            parent.appendChild(child);  
+        });
+    }
+</script>
