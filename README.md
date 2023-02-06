@@ -2,7 +2,7 @@
 
 EXPLORE UP (Travelocity.com clone)
 
-Travelocity.com is an online travel agency owned by Expedia Group.
+Travelocity.com is an online travel agency owned by Expedia Group.  It was a collaborative project. we worked on this project on our construct week in masai in which we had to complete this in the span of 5 days
 
 
 ## Deployed Link
