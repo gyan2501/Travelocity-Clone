@@ -12,7 +12,7 @@ https://admirable-arithmetic-e1de52.netlify.app/
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
-https://github.com/Sajay0623/Sajay0623.github.io
+
 
 
 ## Screenshots
@@ -29,3 +29,4 @@ https://github.com/Sajay0623/Sajay0623.github.io
 </br>
 <img src="https://github.com/gyan2501/Asset/blob/main/tsss/tssearch.png"/>
 
+ajay sahu github https://github.com/Sajay0623/Sajay0623.github.io
